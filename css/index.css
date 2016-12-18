@@ -1,0 +1,459 @@
+@charset "UTF-8";
+@media screen and (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 3, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  ::i-block-chrome, #share_title {
+    margin-top: 3em; } }
+
+@media (min-width: 993px) {
+  /* line 7, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  body {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, 'Lato', sans-serif; }
+  /* line 12, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  img {
+    max-width: 500px;
+    height: auto; }
+  /* line 19, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto; }
+  /* line 25, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  header {
+    background-color: #020202;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  /* line 31, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .title {
+    padding: 0.3em 0;
+    text-align: center;
+    float: left;
+    color: #FF5000;
+    font-size: 23px;
+    font-family: 'Fredoka One', cursive; }
+  /* line 39, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .navbar-default {
+    background-color: #020202;
+    border-color: #020202; }
+  /* line 43, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent; }
+  /* line 49, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: left;
+    margin-right: -7%; }
+  /* line 58, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .navbar-default .navbar-nav li {
+    float: left;
+    width: 100px;
+    margin: 0;
+    padding: 0; }
+  /* line 64, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .navbar-default .navbar-nav li a {
+    text-align: center;
+    display: block;
+    padding: 1em 0;
+    width: 100%;
+    background-color: black;
+    color: white; }
+  /* line 72, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .navbar-default .navbar-nav li a:hover {
+    background-color: red;
+    color: white; }
+  /* line 76, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .eyecatch {
+    background-image: url(../image/eyecatch_8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px; }
+  /* line 83, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .sub_title {
+    margin: 10% 0px 2% 0px;
+    text-align: center;
+    font-family: marketing script;
+    font-size: 500%; }
+  /* line 89, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .concept_image {
+    background-image: url(../image/piece_partial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 75%;
+    float: right; }
+  /* line 97, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #sub_image {
+    width: 80%;
+    height: 300px;
+    border-radius: 80%;
+    padding: 5%; }
+  /* line 103, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #sub_image_titie {
+    padding: 50px 0px 20px 0px;
+    text-align: center;
+    font-size: 300%;
+    color: #FF5000; }
+  /* line 109, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #sub_image_titie_talk {
+    padding: 19px 0px 20px 0px;
+    text-align: center;
+    font-size: 300%;
+    color: #FF5000; }
+  /* line 119, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #Apple_Music {
+    height: 130px;
+    border-radius: 0%;
+    padding-left: 68%;
+    margin-top: 21%; }
+  /* line 124, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #Spotify {
+    height: 130px;
+    border-radius: 0%;
+    padding-left: 20%;
+    margin-top: 2%; }
+  /* line 129, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #SoundCloud {
+    height: 130px;
+    border-radius: 0%;
+    padding-left: 68%;
+    margin-top: 2%; }
+  /* line 134, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #Youtube {
+    height: 130px;
+    border-radius: 0%;
+    padding-left: 20%;
+    margin-top: 2%; }
+  /* line 139, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #smartphone_white {
+    height: 57em;
+    width: 74.2%;
+    margin-top: 1.3%;
+    margin-left: 16%; }
+  /* line 145, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .Listening_side {
+    background-image: url(../image/headphone_lp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 650px;
+    /* width: 100%; */ }
+  /* line 152, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .community_back {
+    background-image: url(../image/community_back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    margin-top: 7em; }
+  /* line 160, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #share_twi {
+    height: 140px;
+    text-align: center;
+    padding-left: 33%; }
+  /* line 165, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #share_face {
+    height: 140px;
+    text-align: center;
+    padding-left: 33%; }
+  /* line 170, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #share_hatena {
+    height: 85px;
+    text-align: center;
+    padding-left: 38%;
+    margin-top: 5%; }
+  /* line 176, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  footer {
+    background-color: #020202;
+    width: 100%;
+    height: 300px; }
+  /* line 181, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #fotter_title {
+    text-align: center;
+    font-size: 800%;
+    color: #FF5000;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px 10px #020202; }
+  /* line 188, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #fotter_sub_title {
+    text-align: center;
+    color: #FFF;
+    padding-top: 2%;
+    margin-left: 46%; }
+  /* line 194, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #fotter_copyright {
+    text-align: center;
+    color: #FFF;
+    padding-top: 3em; } }
+
+@media screen and (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 203, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  input[type="date"].form-control,
+  input[type="time"].form-control,
+  input[type="datetime-local"].form-control,
+  input[type="month"].form-control {
+    line-height: 36px; }
+  /* line 213, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  input[type="date"].input-sm,
+  .input-group-sm input[type="date"],
+  input[type="time"].input-sm,
+  .input-group-sm input[type="time"],
+  input[type="datetime-local"].input-sm,
+  .input-group-sm input[type="datetime-local"],
+  input[type="month"].input-sm,
+  .input-group-sm input[type="month"] {
+    line-height: 24px; }
+  /* line 223, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  input[type="date"].input-lg,
+  .input-group-lg input[type="date"],
+  input[type="time"].input-lg,
+  .input-group-lg input[type="time"],
+  input[type="datetime-local"].input-lg,
+  .input-group-lg input[type="datetime-local"],
+  input[type="month"].input-lg,
+  .input-group-lg input[type="month"] {
+    line-height: 44px; } }
+
+@media (min-width: 993px) {
+  /* line 227, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .input-group {
+    padding-top: 5em; }
+  /* line 230, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased; }
+  /* line 246, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .form-control,
+  .form-group .form-control {
+    border: 0;
+    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-weight: 400; }
+  /* line 259, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .chara_title {
+    margin: 80px 0px -40px 0px; }
+  /* line 262, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #character {
+    background-image: url(../image/smartphone_white_3.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    height: 650px;
+    margin-top: 7%; }
+  /* line 269, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #black_iphone {
+    height: auto;
+    margin-top: -12%;
+    width: 81%;
+    margin-left: -4%; }
+  /* line 275, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #hatena_p {
+    text-align: center;
+    padding-top: 2.8em; }
+  /* line 279, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #twitter_p {
+    text-align: center; }
+  /* line 282, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #facebook_p {
+    text-align: center; }
+  /* line 285, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #share_section {
+    height: 600px; }
+  /* line 288, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #iOS_download {
+    width: 30%;
+    height: 100%;
+    opacity: 0.5;
+    padding-top: 5%; }
+  /* line 294, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset; }
+  /* line 299, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #concept_sub_p {
+    margin-top: 14%;
+    font-size: 200%;
+    line-height: 2; }
+  /* line 304, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #character_sub_p {
+    margin-top: 17%;
+    font-size: 200%;
+    line-height: 2; }
+  /* line 309, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #listening_sub_p {
+    margin-top: 10%;
+    font-size: 200%;
+    line-height: 2; }
+  /* line 314, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #warning_p {
+    margin-top: 12%;
+    font-size: 120%; }
+  /* line 318, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #concept_main_title {
+    text-align: center;
+    font-size: 300%;
+    padding: 2% 2%;
+    color: #FF5000; }
+  /* line 324, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #concept_main_p {
+    font-size: 300%;
+    color: #FF5000; }
+  /* line 328, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #character_main_p {
+    font-size: 350%;
+    color: #FF5000;
+    font-weight: 900;
+    font-family: impact;
+    padding-top: 11%; }
+  /* line 335, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #listening_main_p {
+    font-size: 290%;
+    padding-top: 6%; }
+  /* line 339, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #sub_image_p {
+    font-size: 127%; }
+  /* line 342, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #sub_image_p_talk {
+    font-size: 127%; }
+  /* line 345, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #community_main_p {
+    font-size: 400%;
+    color: #FFFFFF;
+    padding-top: 20%; }
+  /* line 350, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #community_sub_p {
+    padding-top: 14%;
+    font-size: 200%;
+    color: #FFFFFF;
+    line-height: 2; }
+  /* line 356, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #white_text_form {
+    width: 225px;
+    height: 34px;
+    background-color: #FFF;
+    border-radius: 30px 0px 0px 30px; }
+  /* line 362, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #black_submit {
+    width: 200px;
+    height: 200px;
+    background-color: #020202; }
+  /* line 367, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .form-group {
+    width: 40%;
+    height: 50px;
+    background-color: #FFF;
+    border-radius: 30px 0px 0px 30px; }
+  /* line 374, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .form-inline .btn {
+    background-color: #FF5000;
+    width: 28%;
+    height: 52px;
+    border-radius: 0px 30px 30px 0px;
+    color: #FFFFF0; }
+  /* line 382, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .form-inline {
+    padding-top: 12%; }
+  /* line 385, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .relative_first {
+    position: relative; }
+  /* line 388, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .absolute_first {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 37%;
+    font-size: 20px;
+    text-shadow: 1px 1px 10px #020202; }
+  /* line 396, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .relative_second {
+    position: relative; }
+  /* line 399, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .absolute_second {
+    position: absolute;
+    color: #fff;
+    top: 11.1em;
+    left: 3%;
+    font-size: 40px;
+    text-shadow: 1px 1px 5px #020202;
+    font-weight: 900; }
+  /* line 409, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #logo {
+    font-size: 800%;
+    color: #FF5000;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px 10px #020202;
+    padding-top: 35%; }
+  /* line 416, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #catch_copy {
+    font-size: 300%;
+    color: #FFF;
+    text-shadow: 1px 1px 10px #020202;
+    font-weight: bold;
+    white-space: nowrap; }
+  /* line 423, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #pink_p {
+    color: #FF5000; }
+  /* line 426, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .slideshow img {
+    position: absolute;
+    left: 23.8%;
+    top: 18.5%;
+    opacity: 0;
+    transition: 1s;
+    width: auto;
+    height: 42.8em; }
+  /* line 435, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .slideshow .show {
+    opacity: 1; }
+  /* line 438, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .slideshow_2 img {
+    position: absolute;
+    left: 7%;
+    top: 6.9%;
+    opacity: 0;
+    transition: 1s;
+    height: 65.8%;
+    width: auto; }
+  /* line 447, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  .slideshow_2 .show {
+    opacity: 1; }
+  /* line 450, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #share_title {
+    margin: 0px;
+    padding-bottom: 10px; }
+  /* line 454, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index.scss */
+  #release {
+    color: #FFFFF0;
+    /* padding-top: 5%; */
+    font-size: 21px;
+    position: relative;
+    top: 2em; } }
+
+/*# sourceMappingURL=index.css.map */

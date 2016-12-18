@@ -1,0 +1,485 @@
+@charset "UTF-8";
+@media (max-width: 414px) {
+  /* line 2, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  body {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+  /* line 10, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto; }
+  /* line 16, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  header {
+    background-color: #020202;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  /* line 22, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .title {
+    text-align: center;
+    float: left;
+    color: #FF5000;
+    font-size: 23px;
+    font-family: 'Fredoka One', cursive; }
+  /* line 29, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .navbar-default {
+    background-color: #020202;
+    border-color: #020202; }
+  /* line 33, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent; }
+  /* line 39, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .navi {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    font-family: Helvetica;
+    font-size: 20px; }
+  /* line 47, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .navbar-default .navbar-nav li {
+    float: left;
+    width: 100px;
+    margin: 0;
+    padding: 0; }
+  /* line 53, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .navbar-default .navbar-nav li a {
+    text-align: center;
+    display: block;
+    padding: 1em 0;
+    width: 100%;
+    background-color: black;
+    color: white; }
+  /* line 61, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .navbar-default .navbar-nav li a:hover {
+    background-color: red;
+    color: white; }
+  /* line 65, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .eyecatch {
+    background-image: url(../image/eyecatch_8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1000px; }
+  /* line 72, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .sub_title {
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+    font-family: marketing script;
+    font-size: 470%;
+    margin-top: 1em; }
+  /* line 79, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #concept_title {
+    margin: 0;
+    margin-top: -10%;
+    margin-bottom: 20%; }
+  /* line 84, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .concept_image {
+    background-image: url(../image/piece_partial.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    width: 100%;
+    float: right;
+    margin-top: -30em; }
+  /* line 93, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #sub_image {
+    width: 70%;
+    height: 250px;
+    border-radius: 80%;
+    padding: 10px; }
+  /* line 99, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #sub_image_titie {
+    padding: 15px 0px 10px 0px;
+    text-align: center;
+    font-size: 200%;
+    color: #FF5000; }
+  /* line 105, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #sub_image_titie_talk {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 200%;
+    color: #FF5000; }
+  /* line 115, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #Apple_Music {
+    height: 100px;
+    border-radius: 0%;
+    padding-left: 14em;
+    margin-top: 5em; }
+  /* line 120, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #Spotify {
+    height: 100px;
+    border-radius: 0%;
+    padding-left: 3em;
+    margin-top: 1em; }
+  /* line 125, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #SoundCloud {
+    height: 100px;
+    border-radius: 0%;
+    padding-left: 14em;
+    margin-top: 1em; }
+  /* line 130, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #Youtube {
+    height: 100px;
+    border-radius: 0%;
+    padding-left: 3em;
+    margin-top: 1em; }
+  /* line 135, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #smartphone_white {
+    background-size: contain;
+    width: 63.1%;
+    position: relative;
+    top: -50em;
+    height: 34.6em;
+    left: 17%; }
+  /* line 143, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .Listening_side {
+    background-image: url(../image/headphone_lp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 510px; }
+  /* line 149, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .community_back {
+    background-image: url(../image/community_back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1120px;
+    margin-top: 7em;
+    line-height: 1.6; }
+  /* line 158, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #share_twi {
+    height: 125px;
+    text-align: center;
+    padding-left: 35%; }
+  /* line 163, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #share_hatena {
+    height: 85px;
+    text-align: center;
+    padding-left: 38%;
+    margin-top: 1em; }
+  /* line 169, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #share_face {
+    height: 125px;
+    text-align: center;
+    padding-left: 35%; }
+  /* line 174, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  footer {
+    background-color: #020202;
+    width: 100%;
+    height: 300px; }
+  /* line 179, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #fotter_title {
+    text-align: center;
+    font-size: 650%;
+    color: #FF5000;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px 10px #020202; }
+  /* line 186, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #fotter_sub_title {
+    text-align: center;
+    color: #FFF;
+    margin-top: 2em;
+    margin-left: 36%; }
+  /* line 192, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #fotter_copyright {
+    text-align: center;
+    color: #FFF;
+    margin-top: 4em; } }
+
+@media screen and (max-width: 414px) and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 201, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  input[type="date"].form-control,
+  input[type="time"].form-control,
+  input[type="datetime-local"].form-control,
+  input[type="month"].form-control {
+    line-height: 36px; }
+  /* line 211, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  input[type="date"].input-sm,
+  .input-group-sm input[type="date"],
+  input[type="time"].input-sm,
+  .input-group-sm input[type="time"],
+  input[type="datetime-local"].input-sm,
+  .input-group-sm input[type="datetime-local"],
+  input[type="month"].input-sm,
+  .input-group-sm input[type="month"] {
+    line-height: 24px; }
+  /* line 221, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  input[type="date"].input-lg,
+  .input-group-lg input[type="date"],
+  input[type="time"].input-lg,
+  .input-group-lg input[type="time"],
+  input[type="datetime-local"].input-lg,
+  .input-group-lg input[type="datetime-local"],
+  input[type="month"].input-lg,
+  .input-group-lg input[type="month"] {
+    line-height: 44px; } }
+
+@media (max-width: 414px) {
+  /* line 225, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .input-group {
+    padding-top: 5em; }
+  /* line 228, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased; }
+  /* line 244, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .form-control,
+  .form-group .form-control {
+    border: 0;
+    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent;
+    transition: background 0s ease-out;
+    float: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-weight: 400; }
+  /* line 257, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #character {
+    background-image: url(../image/smartphone_white_3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 470px;
+    margin-left: 19%; }
+  /* line 264, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #black_iphone {
+    width: 100%; }
+  /* line 267, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #hatena_p {
+    text-align: center;
+    padding-top: 5%; }
+  /* line 271, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #twitter_p {
+    text-align: center;
+    margin-top: -1em; }
+  /* line 275, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #facebook_p {
+    text-align: center;
+    margin-top: -1em; }
+  /* line 279, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #share_section {
+    height: 600px; }
+  /* line 282, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #iOS_download {
+    width: 32%;
+    height: 5em;
+    opacity: 0.5;
+    padding-top: 2em; }
+  /* line 288, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    display: none; }
+  /* line 294, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #concept_sub_p {
+    margin-top: 1em;
+    font-size: 130%;
+    line-height: 2.6;
+    text-shadow: 1px 1px 10px #020202;
+    color: #FFF;
+    font-weight: 900; }
+  /* line 302, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #character_sub_p {
+    margin-top: 2em;
+    font-size: 150%;
+    text-align: center;
+    line-height: 2.3; }
+  /* line 308, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #listening_sub_p {
+    margin-top: 2em;
+    font-size: 150%;
+    text-align: center;
+    line-height: 2.3; }
+  /* line 314, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #warning_p {
+    margin-top: 3em;
+    font-size: 50%;
+    text-align: center; }
+  /* line 319, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #concept_main_title {
+    text-align: center;
+    font-size: 150%;
+    padding: 20px 20px;
+    color: #FF5000; }
+  /* line 325, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #concept_main_p {
+    font-size: 200%;
+    color: #FF5000;
+    color: #FFF;
+    text-shadow: 1px 1px 10px #020202;
+    font-weight: 900; }
+  /* line 332, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #character_main_p {
+    font-size: 250%;
+    color: #FF5000;
+    font-weight: 900;
+    font-family: impact;
+    padding-top: 1em;
+    text-align: center; }
+  /* line 340, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #listening_main_p {
+    font-size: 250%;
+    padding-top: 100px;
+    text-align: center; }
+  /* line 345, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #sub_image_p {
+    font-size: 89%;
+    text-align: center; }
+  /* line 349, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #community_main_p {
+    font-size: 250%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: -3em; }
+  /* line 355, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #community_sub_p {
+    font-size: 150%;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2.3; }
+  /* line 361, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #white_text_form {
+    width: 225px;
+    height: 34px;
+    background-color: #FFF;
+    border-radius: 30px 0px 0px 30px; }
+  /* line 367, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #black_submit {
+    width: 200px;
+    height: 200px;
+    background-color: #020202; }
+  /* line 372, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .form-group {
+    width: 53%;
+    height: 50px;
+    background-color: #FFF;
+    border-radius: 30px 0px 0px 30px;
+    margin-left: 2.5em;
+    position: relative;
+    top: 25em;
+    left: -0.4em; }
+  /* line 383, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .form-inline .btn {
+    background-color: #FF5000;
+    width: 35%;
+    height: 50px;
+    border-radius: 0px 30px 30px 0px;
+    color: #FFFFF0;
+    position: absolute;
+    top: 40.6em;
+    left: 25em;
+    white-space: initial;
+    font-size: 10px; }
+  /* line 396, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .form-inline {
+    padding-top: 4em;
+    position: relative;
+    top: 4em; }
+  /* line 401, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .relative_first {
+    position: relative;
+    top: 33em; }
+  /* line 405, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .absolute_first {
+    position: absolute;
+    color: #fff;
+    top: 3.3em;
+    left: 13.5em;
+    font-size: 12px;
+    text-shadow: 1px 1px 10px #020202; }
+  /* line 413, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .relative_second {
+    position: relative;
+    z-index: -1; }
+  /* line 417, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .absolute_second {
+    position: absolute;
+    color: #fff;
+    top: 22.1em;
+    left: -1.1em;
+    font-size: 19px;
+    text-shadow: 1px 1px 5px #020202;
+    font-weight: 900;
+    margin-top: -23.3em;
+    margin-left: 12em;
+    display: none; }
+  /* line 430, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #logo {
+    font-size: 650%;
+    color: #FF5000;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 1px 1px 10px #020202;
+    padding-top: 1em; }
+  /* line 437, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #catch_copy {
+    font-size: 200%;
+    color: #FFF;
+    text-shadow: 1px 1px 10px #020202;
+    font-weight: bold; }
+  /* line 443, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #pink_p {
+    color: #FF5000; }
+  /* line 446, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .slideshow img {
+    position: absolute;
+    left: 23.9%;
+    top: -126.6%;
+    opacity: 0;
+    transition: 1s;
+    width: auto;
+    height: 26em; }
+  /* line 455, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .slideshow .show {
+    opacity: 1; }
+  /* line 458, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .slideshow_2 img {
+    position: absolute;
+    left: 14%;
+    top: 13.7%;
+    opacity: 0;
+    transition: 1s;
+    height: 60.8%; }
+  /* line 466, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  .slideshow_2 .show {
+    opacity: 1; }
+  /* line 469, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #relative_black {
+    position: relative;
+    top: 0em; }
+  /* line 473, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #share_title {
+    margin: 0px;
+    padding-bottom: 10px; }
+  /* line 477, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #release {
+    color: #FFFFF0;
+    /* padding-top: 5%; */
+    font-size: 17px;
+    position: relative;
+    top: 27em; }
+  /* line 484, /Users/kikuchi/Desktop/APOLO_LP_1204/css/smart_6s.scss */
+  #relative_6s {
+    top: 31em; } }
+
+/*# sourceMappingURL=smart_6s.css.map */

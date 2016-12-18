@@ -1,0 +1,17 @@
+{
+    "path": {
+        "sass/main.scss": { //ここで監視対象ファイルを指定します
+            "sass.enabled": true
+            , "sass.options": { //ここから各種オプションを設定します
+                "includePaths": [
+                    "*.scss"
+                ]
+                , "outputDir": "../css/"
+                , "imagePath": null
+                , "sourceComments": "map"
+                , "outputStyle": "nested"
+            }
+            , "linting.collapsed": true
+        }
+    }
+}
