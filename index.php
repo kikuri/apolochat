@@ -37,12 +37,12 @@ if(isset($_POST['insert'])){
                 <script type="text/javascript" src="./js/dist/sweetalert.min.js"></script>
                 <link href="https://fonts.googleapis.com/css?family=Exo:900|Fredoka+One|Lato|Patua+One" rel="stylesheet">
                 <title>APOLO-大好きな音楽で繋がろう-</title>
-                <meta name="description" content="音楽を会話をしながら楽しんで聞けるAPOLOのページです。MUBOTでは400万曲が聴き放題！さらにポアルンとなんでも話せちゃう！
+                <meta name="description" content="音楽を会話をしながら楽しんで聞けるAPOLOのページです。APOLOでは400万曲が聴き放題！さらにポアルンとなんでも話せちゃう！
                                           会話を通じて音楽をもっと好きになろう！">
                 <meta name='keywords' content='音楽,チャットボット,人工知能,聞きたい音楽,会話'>
                 <meta property="og:type" content="website">
                 <meta property="og:title" content="APOLO-大好きな音楽で繋がろう-">
-                <meta property="og:description" content="音楽を会話をしながら楽しんで聞けるMUBOTのページです。MUBOTでは400万曲が聴き放題！さらにMUBOTとなんでも話せちゃう！会話を通じて音楽をもっと好きになろう！">
+                <meta property="og:description" content="音楽を会話をしながら楽しんで聞けるAPOLOのページです。APOLOでは400万曲が聴き放題！さらにポアルンとなんでも話せちゃう！会話を通じて音楽をもっと好きになろう！">
                 <meta property="og:image" content="http://kikuchiiiii.sakura.ne.jp/APOLO_LP_1204/image/APOLO_LP.png">
                 <meta property="og:url" content="http://kikuchiiiii.sakura.ne.jp/APOLO_LP_1204/"> </head>
             <style>
@@ -76,7 +76,7 @@ if(isset($_POST['insert'])){
         </head>
 
         <body>
-            <header>
+            <header id="header">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-11">
@@ -89,7 +89,7 @@ if(isset($_POST['insert'])){
                                 </div>
                                 <div id="gnavi" class="collapse navbar-collapse">
                                     <ul class="navi nav navbar-nav navbar-right">
-                                        <li><a href="#Concept">Concept</a></li>
+                                        <li id="concept_li"><a href="#Concept">Concept</a></li>
                                         <li><a href="#Features">Features</a></li>
                                         <li><a href="#Character">Character</a></li>
                                         <li><a href="#Listening">Listening</a></li>
@@ -125,6 +125,7 @@ if(isset($_POST['insert'])){
                         <div class="col-lg-12 col-sm-12 col-xs-12">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="text-align:center;">
+                                    <p id="sns_p">音楽SNS</p>
                                     <p id="logo">APOLO</p>
                                     <p id="catch_copy">大好きな音楽で繋がろう</p>
                                     <figure class="relative_first" id="relative_6s"> <img id="iOS_download" src="image/iOS_download.png">
@@ -132,12 +133,10 @@ if(isset($_POST['insert'])){
                                             <p>COMING SOON</p>
                                         </figcaption>
                                     </figure>
-                                    <p id="release">2月1日リリース予定！事前登録をして手に入れよう</p>
-                                    <form class="form-inline" action="./returnprice.php" method="post">
-                                        <div class="form-group">
-                                            <input type="email" name="Email" class="form-control" id="exampleInputEmail1" placeholder="Please enter your Email" style="height: 50px;"> </div>
-                                        <button type="submit" class="btn" id="alert" name="insert">事前登録はこちら</button>
-                                    </form>
+                                    <p id="release">2月1日iOS版リリース予定！<span class="br_5">事前登録をして手に入れよう</span></p>
+                                    <div class="line">
+                                        <a href="https://line.me/R/ti/p/%40urm8576z"> <img id="line" height="36" border="0" alt="友だち追加" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"> </a>
+                                    </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 hidden-sm col-xs-12 ">
                                     <figure class="relative_first"> <img id="smartphone_white" src="image/smartphone_white.png">
@@ -194,15 +193,18 @@ if(isset($_POST['insert'])){
                                 <div class="col-md-4 col-sm-4 col-xs-12"> <img id="sub_image" src="image/powarun_2.png" alt="sub_image1">
                                     <p style="text-align: center;">マスコットキャラクター　ポアルン</p>
                                     <p id="sub_image_titie_talk">話す</p>
-                                    <p id="sub_image_p_talk">APOLOは会話を楽しみがら 音楽を聴くことができる！ 今日の出来事、楽しかった ことなどを<span id="pink_p">ポアルン</span>に伝えて <span id="pink_p">ポアルンと友情を育もう！</span></p>
+                                    <p id="sub_image_p_talk">APOLOは会話を楽しみがら 音楽を聴くことができる！ 今日の出来事、楽しかった ことなどを<span id="pink_p">ポアルン</span>に伝えて <span id="pink_p"><span class="br_6"> ポアルンと友情を育もう！</span></span>
+                                    </p>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-12"> <img id="sub_image" src="image/sub_image2.jpeg" alt="sub_image2">
                                     <p id="sub_image_titie">聴く</p>
-                                    <p id="sub_image_p">オールジャンルの音楽が<span id="pink_p"> 4000万曲以上 </span>聴き放題！あなたのはまる音楽 が絶対ここにある！自分で音楽を発 見したり友達からおすすめした音楽 を聴いたり、楽しみ方はさまざま！</p>
+                                    <p id="sub_image_p">オールジャンルの音楽が<span id="pink_p"> 4000万曲以上 </span>聴き放題！あなたのはまる音楽 が絶対ここにある！自分で音楽を発 見したり友達からおすすめした音楽 を聴いたり、<span class="br_6">楽しみ方</span>はさまざま！</p>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-12"> <img id="sub_image" src="image/sub_image3.jpeg " alt="sub_image3">
                                     <p id="sub_image_titie">繋がる</p>
-                                    <p id="sub_image_p"><span id="pink_p">APOLOでは音楽の趣味が合う人が絶対見つかる！</span>好きな音楽について 熱く語ったり新しくできた友達と アーティストのライブに行ったり、 <span id="pink_p">大人数で音楽を楽しもう！</span></p>
+                                    <p id="sub_image_p"><span id="pink_p">APOLOでは音楽の趣味が合う人が絶対見つかる！</span>好きな音楽について 熱く語ったり新しくできた友達と アーティストのライブに行ったり、 <span id="pink_p"><span class="br_6"><span class="br_5s">大人数で音楽を楽しもう！</span></span>
+                                        </span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -257,7 +259,7 @@ if(isset($_POST['insert'])){
                                 </div>
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <p id="listening_main_p">世界中の音楽にアクセスしよう</p>
-                                    <article id="listening_sub_p">邦楽、洋楽、年代を問わず聴き放題。 あなたのお気に入りのアーティストを 見つけて下さい。 音楽は<span id="pink_p">iTunes、AppleMusic、Spotify、SoundCloud、YouTube</span>から選べて楽しめます。 お気に入りを聴いて、新しい曲を発見して、 自分だけの最高の音楽を見つけましょう。</article>
+                                    <article id="listening_sub_p">邦楽、洋楽、年代を問わず聴き放題。 あなたのお気に入りのアーティストを 見つけて下さい。<span class="br_6">  音楽は</span><span id="pink_p">iTunes、AppleMusic、Spotify、SoundCloud、YouTube</span>から選べて楽しめます。 お気に入りを聴いて、新しい曲を発見して、 自分だけの最高の音楽を見つけましょう。</article>
                                     <p id="warning_p">※AppleMusic,Spotifyでの視聴は有料会員登録が必要です</p>
                                 </div>
                             </div>
@@ -282,7 +284,13 @@ if(isset($_POST['insert'])){
                                 </div>
                                 <div class="col-md-6 col-xs-12">
                                     <p id="community_main_p">音楽で繋がろう</p>
-                                    <article id="community_sub_p"> 今まで音楽は１人で楽しむものだと 思ってませんでしたか？ <span id="pink_p">APOLO</span>では音楽の趣味が合う人と 話せたり一緒にライブに行ったり音楽 の楽しみ方がもっと広がります。 音楽で繋がる体験をぜひ一緒に 味わってみませんか。</article>
+                                    <article id="community_sub_p"> 今まで音楽は１人で楽しむものだと 思ってませんでしたか？ <span id="pink_p">APOLO</span>では音楽の趣味が合う人と 話せたり一緒にライブに行ったり音楽 の楽しみ方がもっと広がります。 <span class="br_5"><span class="br_5s">音楽で繋がる体験を<span class="br_6">ぜひ一緒に味わってみませんか。</span></span>
+                                        </span>
+                                    </article>
+                                    <p id="release2">2月1日リリース予定！事前登録をして手に入れよう</p>
+                                    <div class="line2">
+                                        <a href="https://line.me/R/ti/p/%40urm8576z"><img height="36" border="0" alt="友だち追加" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -339,6 +347,9 @@ if(isset($_POST['insert'])){
                                 <div class="col-md-12 col-xs-12"> <a href="question.html" id="fotter_sub_title">お問い合わせ</a> </div>
                             </div>
                             <p id="fotter_copyright">COPYRIGHT © APOLO ALL RIGHTS RESERVED</p>
+                            <div id="page-top" class="page-top">
+                                <p><a href="#header" id="move-page-top" class="move-page-top">▲</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>

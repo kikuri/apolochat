@@ -2,10 +2,26 @@
 @media (min-width:415px) and (max-width: 768px) {
     /* line 2, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 4, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
+    @font-face {
+        font-family: 'marketing script';
+        src: url('../font/MarketingScript.svg') format('svg');
+    }
+    @font-face {
+        font-family: 'marketing script';
+        src: url("../font/MarketingScript.ttf") format('truetype');
+    }
+    @font-face {
+        font-family: 'marketing script';
+        src: url("../font/MarketingScript.woff") format('woff');
+    }
     body {
         margin-left: 0px;
         margin-top: 0px;
         font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, 'Lato', sans-serif;
+    }
+    img {
+        max-width: 500px;
+        height: auto;
     }
     /* line 10, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 10, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -89,7 +105,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 750px;
+        height: 690px;
     }
     /* line 74, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 84, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -187,7 +203,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 650px;
+        height: 745px;
         margin-top: 7em;
         line-height: 1.6;
     }
@@ -333,7 +349,7 @@
         background-size: inherit;
         height: 650px;
         margin-top: 7%;
-        margin-left: 16%;
+        margin-left: 7%;
     }
     /* line 257, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 299, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -524,7 +540,7 @@
         position: absolute;
         color: #fff;
         top: 54%;
-        left: 40%;
+        left: 37%;
         font-size: 20px;
         text-shadow: 1px 1px 10px #020202;
     }
@@ -544,6 +560,13 @@
         text-shadow: 1px 1px 5px #020202;
         font-weight: 900;
     }
+    .line {
+        position: relative;
+        top: 7em;
+    }
+    #line {
+        height: 3em;
+    }
     /* line 395, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 465, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #logo {
@@ -551,7 +574,7 @@
         color: #FF5000;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
-        padding-top: 10%;
+        /*padding-top: 10%;*/
     }
     /* line 402, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 473, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -611,6 +634,28 @@
         font-size: 21px;
         position: relative;
         top: 2em;
+    }
+    .page-top {
+        display: none;
+    }
+    #release2 {
+        color: #FFFFF0;
+        font-size: 24px;
+        position: relative;
+        top: 1em;
+        text-align: center;
+    }
+    .line2 {
+        margin-top: 10%;
+        text-align: center;
+    }
+    #sns_p {
+        padding-top: 10%;
+        font-size: 200%;
+        color: #fff;
+        text-shadow: 1px 1px 10px #020202;
+        font-weight: bold;
+        white-space: nowrap;
     }
 }
 

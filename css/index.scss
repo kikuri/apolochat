@@ -4,10 +4,26 @@
             margin-top: 3em;
         }
     }
+    @font-face {
+        font-family: 'marketing script';
+        src: url('../font/MarketingScript.svg') format('svg');
+    }
+    @font-face {
+        font-family: 'marketing script';
+        src: url("../font/MarketingScript.ttf") format('truetype');
+    }
+    @font-face {
+        font-family: 'marketing script';
+        src: url("../font/MarketingScript.woff") format('woff');
+    }
     body {
         margin-left: 0px;
         margin-top: 0px;
-        font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, 'Lato', sans-serif;
+        font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, 'Lato', sans-serif, "marketing script";
+    }
+    @font-face {
+        font-family: 'marketing script';
+        src: url("../font/MarketingScript.svg") format('svg');
     }
     img {
         max-width: 500px;
@@ -53,7 +69,7 @@
         font-family: Helvetica;
         font-size: 20px;
         text-align: left;
-        margin-right: -7%;
+        margin-right: -4%;
     }
     .navbar-default .navbar-nav li {
         float: left;
@@ -154,7 +170,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 650px;
+        height: 760px;
         margin-top: 7em;
     }
     #share_twi {
@@ -345,7 +361,7 @@
     #community_main_p {
         font-size: 400%;
         color: #FFFFFF;
-        padding-top: 20%;
+        padding-top: 12%;
     }
     #community_sub_p {
         padding-top: 14%;
@@ -405,13 +421,15 @@
         text-shadow: 1px 1px 5px #020202;
         font-weight: 900;
     }
-    .absolute_third {}
+    .line {
+        margin-top: 14%;
+    }
     #logo {
         font-size: 800%;
         color: #FF5000;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
-        padding-top: 35%;
+        /*padding-top: 35%;*/
     }
     #catch_copy {
         font-size: 300%;
@@ -429,7 +447,7 @@
         top: 18.5%;
         opacity: 0;
         transition: 1s;
-        width: auto;
+        width: 59.5%;
         height: 42.8em;
     }
     .slideshow .show {
@@ -458,4 +476,26 @@
         position: relative;
         top: 2em;
     }
+    .page-top {
+        display: none;
+    }
+    #release2 {
+        color: #FFFFF0;
+        font-size: 24px;
+        position: relative;
+        top: 2em;
+    }
+    .line2 {
+        margin-top: 15%;
+        text-align: center;
+    }
+    #sns_p {
+        padding-top: 26%;
+        font-size: 200%;
+        color: #fff;
+        text-shadow: 1px 1px 10px #020202;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+   
 }

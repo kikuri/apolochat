@@ -1,8 +1,20 @@
 @media (max-width: 414px) {
+    @font-face {
+        font-family: 'marketing script';
+        src: url('../font/MarketingScript.svg') format('svg');
+    }
+    @font-face {
+        font-family: 'marketing script';
+        src: url("../font/MarketingScript.ttf") format('truetype');
+    }
+    @font-face {
+        font-family: 'marketing script';
+        src: url("../font/MarketingScript.woff") format('woff');
+    }
     body {
         margin-left: 0px;
         margin-top: 0px;
-        font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+        font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "marketing script";
     }
     @mixin pink {
         color: #FF5000;
@@ -76,6 +88,9 @@
         font-size: 470%;
         margin-top: 1em;
     }
+    #Concept {
+        display: none;
+    }
     #concept_title {
         margin: 0;
         margin-top: -10%;
@@ -89,6 +104,9 @@
         width: 100%;
         float: right;
         margin-top: -32em;
+    }
+    #concept_li {
+        display: none;
     }
     #sub_image {
         width: 70%;
@@ -151,7 +169,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 970px;
+        height: 1125px;
         margin-top: 7em;
         line-height: 1.6;
     }
@@ -281,9 +299,8 @@
     }
     #iOS_download {
         width: 40%;
-        height: 5em;
         opacity: 0.5;
-        padding-top: 2em;
+        margin-top: -58%;
     }
     hr {
         height: 10px;
@@ -304,12 +321,16 @@
         font-size: 150%;
         text-align: center;
         line-height: 2.1;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     #listening_sub_p {
         margin-top: 2em;
         font-size: 150%;
         text-align: center;
         line-height: 2.1;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     #warning_p {
         margin-top: 3em;
@@ -343,8 +364,13 @@
         text-align: center;
     }
     #sub_image_p {
-        font-size: 89%;
         text-align: center;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #sub_image_p_talk {
+        margin-left: 3%;
+        margin-right: 3%;
     }
     #community_main_p {
         font-size: 250%;
@@ -357,6 +383,8 @@
         color: #FFFFFF;
         text-align: center;
         line-height: 2.1;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     #white_text_form {
         width: 225px;
@@ -400,12 +428,12 @@
     }
     .relative_first {
         position: relative;
-        top: 33em;
+        top: 41em;
     }
     .absolute_first {
         position: absolute;
         color: #fff;
-        top: 3.3em;
+        top: -7.7em;
         left: 9.5em;
         font-size: 12px;
         text-shadow: 1px 1px 10px #020202;
@@ -426,13 +454,20 @@
         margin-left: 12em;
         display: none;
     }
+    .line {
+        position: relative;
+        top: 39em;
+    }
+    #line {
+        height: 3em;
+    }
     .absolute_third {}
     #logo {
         font-size: 650%;
         color: #FF5000;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
-        padding-top: 7%;
+        /*padding-top: 7%;*/
     }
     #catch_copy {
         font-size: 200%;
@@ -476,9 +511,60 @@
     }
     #release {
         color: #FFFFF0;
-        /* padding-top: 5%; */
         font-size: 13px;
         position: relative;
-        top: 37em;
+        top: 40em;
+    }
+    .page-top {
+        margin: 0;
+        padding: 0;
+    }
+    .page-top p {
+        margin: 0;
+        padding: 0;
+        right: 16px;
+        bottom: 16px;
+        margin-left: 83%;
+    }
+    .move-page-top {
+        display: block;
+        background: #FF5000;
+        width: 50px;
+        height: 50px;
+        color: #fff;
+        line-height: 50px;
+        text-decoration: none;
+        text-align: center;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .move-page-top:hover {
+        opacity: 0.85;
+    }
+    #release2 {
+        color: #FFFFF0;
+        font-size: 150%;
+        position: relative;
+        text-align: center;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 1%;
+    }
+    .line2 {
+        margin-top: 5%;
+        text-align: center;
+    }
+    .br_5:before {
+        content: "\A";
+        white-space: pre;
+    }
+    #sns_p {
+        padding-top: 7%;
+        font-size: 150%;
+        color: #fff;
+        text-shadow: 1px 1px 10px #020202;
+        font-weight: bold;
+        white-space: nowrap;
     }
 }
