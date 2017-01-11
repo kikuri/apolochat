@@ -67,9 +67,9 @@
         margin: 0;
         padding: 0;
         font-family: Helvetica;
-        font-size: 20px;
+        font-size: 17px;
         text-align: left;
-        margin-right: -4%;
+        margin-right: 4%;
     }
     .navbar-default .navbar-nav li {
         float: left;
@@ -97,10 +97,13 @@
         height: 750px;
     }
     .sub_title {
-        margin: 10% 0px 2% 0px;
+        margin: 8% 0px 2% 0px;
         text-align: center;
         font-family: marketing script;
         font-size: 500%;
+    }
+    #sub_title_feature {
+        margin: 2% 0px 2% 0px;
     }
     .concept_image {
         background-image: url(../image/piece_partial.jpg);
@@ -111,7 +114,7 @@
         float: right;
     }
     #sub_image {
-        width: 80%;
+        width: 70%;
         height: 300px;
         border-radius: 80%;
         padding: 5%;
@@ -126,6 +129,12 @@
         padding: 19px 0px 20px 0px;
         text-align: center;
         font-size: 300%;
+        color: #FF5000;
+    }
+    #sub_image_titie_recommend {
+        padding: 50px 0px 26px 0px;
+        text-align: center;
+        font-size: 260%;
         color: #FF5000;
     }
     @mixin listening_sub_image {
@@ -154,7 +163,7 @@
     }
     #smartphone_white {
         height: 57em;
-        width: 74.2%;
+        width: 80.2%;
         margin-top: 1.3%;
         margin-left: 16%;
     }
@@ -166,7 +175,7 @@
         /* width: 100%; */
     }
     .community_back {
-        background-image: url(../image/community_back.jpeg);
+        background-image: url(../image/recommend_back.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -302,10 +311,10 @@
         height: 600px;
     }
     #iOS_download {
-        width: 30%;
-        height: 100%;
-        opacity: 0.5;
-        padding-top: 5%;
+        width: 39%;
+        height: 5.2em;
+        opacity: 0.7;
+        border-radius: 5px;
     }
     hr {
         height: 10px;
@@ -359,13 +368,13 @@
         font-size: 127%;
     }
     #community_main_p {
-        font-size: 400%;
+        font-size: 371%;
         color: #FFFFFF;
-        padding-top: 12%;
+        padding-top: 7%;
     }
     #community_sub_p {
-        padding-top: 14%;
-        font-size: 200%;
+        padding-top: 4%;
+        font-size: 190%;
         color: #FFFFFF;
         line-height: 2;
     }
@@ -401,10 +410,15 @@
     .relative_first {
         position: relative;
     }
+    .relative_first_messenger {
+        position: relative;
+        top: -5.1em;
+        right: -26%;
+    }
     .absolute_first {
         position: absolute;
         color: #fff;
-        top: 50%;
+        top: 34%;
         left: 37%;
         font-size: 20px;
         text-shadow: 1px 1px 10px #020202;
@@ -422,7 +436,8 @@
         font-weight: 900;
     }
     .line {
-        margin-top: 14%;
+        margin-top: 22%;
+        margin-right: 45%;
     }
     #logo {
         font-size: 800%;
@@ -443,11 +458,11 @@
     }
     .slideshow img {
         position: absolute;
-        left: 23.8%;
+        left: 24.3%;
         top: 18.5%;
         opacity: 0;
         transition: 1s;
-        width: 59.5%;
+        width: 64.2%;
         height: 42.8em;
     }
     .slideshow .show {
@@ -455,8 +470,8 @@
     }
     .slideshow_2 img {
         position: absolute;
-        left: 7%;
-        top: 6.9%;
+        left: 7.3%;
+        top: 7.1%;
         opacity: 0;
         transition: 1s;
         height: 65.8%;
@@ -466,15 +481,15 @@
         opacity: 1;
     }
     #share_title {
-        margin: 0px;
+        margin-top: 1%;
         padding-bottom: 10px;
     }
     #release {
         color: #FFFFF0;
         /* padding-top: 5%; */
-        font-size: 21px;
+        font-size: 140%;
         position: relative;
-        top: 2em;
+        top: 4em;
     }
     .page-top {
         display: none;
@@ -491,11 +506,10 @@
     }
     #sns_p {
         padding-top: 26%;
-        font-size: 200%;
+        font-size: 160%;
         color: #fff;
         text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
     }
-   
 }

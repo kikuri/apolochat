@@ -1,10 +1,10 @@
 @charset "UTF-8";
-@media screen and (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 3, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+@media screen and (min-width: 1024px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 4, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   ::i-block-chrome, #share_title {
     margin-top: 3em; } }
 
-@media (min-width: 993px) {
+@media (min-width: 1024px) and (max-width: 1024px) {
   @font-face {
     font-family: 'marketing script';
     src: url("../font/MarketingScript.svg") format("svg"); }
@@ -14,7 +14,7 @@
   @font-face {
     font-family: 'marketing script';
     src: url("../font/MarketingScript.woff") format("woff"); }
-  /* line 19, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 20, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   body {
     margin-left: 0px;
     margin-top: 0px;
@@ -22,23 +22,23 @@
   @font-face {
     font-family: 'marketing script';
     src: url("../font/MarketingScript.svg") format("svg"); }
-  /* line 28, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 29, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   img {
     max-width: 500px;
     height: auto; }
-  /* line 35, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 36, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .container {
     padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto; }
-  /* line 41, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 42, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   header {
     background-color: #020202;
     width: 100%;
     margin: 0;
     padding: 0; }
-  /* line 47, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 48, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .title {
     padding: 0.3em 0;
     text-align: center;
@@ -46,17 +46,17 @@
     color: #FF5000;
     font-size: 23px;
     font-family: 'Fredoka One', cursive; }
-  /* line 55, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 56, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .navbar-default {
     background-color: #020202;
     border-color: #020202; }
-  /* line 59, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 60, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .navbar {
     position: relative;
     min-height: 50px;
     margin-bottom: 0px;
     border: 1px solid transparent; }
-  /* line 65, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 66, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .navi {
     list-style-type: none;
     margin: 0;
@@ -64,14 +64,14 @@
     font-family: Helvetica;
     font-size: 17px;
     text-align: left;
-    margin-right: 4%; }
-  /* line 74, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    margin-right: -4%; }
+  /* line 75, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .navbar-default .navbar-nav li {
     float: left;
     width: 100px;
     margin: 0;
     padding: 0; }
-  /* line 80, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 81, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .navbar-default .navbar-nav li a {
     text-align: center;
     display: block;
@@ -79,27 +79,24 @@
     width: 100%;
     background-color: black;
     color: white; }
-  /* line 88, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 89, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .navbar-default .navbar-nav li a:hover {
     background-color: red;
     color: white; }
-  /* line 92, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 93, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .eyecatch {
     background-image: url(../image/eyecatch_8.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 750px; }
-  /* line 99, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 100, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .sub_title {
-    margin: 8% 0px 2% 0px;
+    margin: 10% 0px 2% 0px;
     text-align: center;
     font-family: marketing script;
     font-size: 500%; }
-  /* line 105, /Users/kikuchi/Desktop/apolochat/css/index.scss */
-  #sub_title_feature {
-    margin: 2% 0px 2% 0px; }
-  /* line 108, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 106, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .concept_image {
     background-image: url(../image/piece_partial.jpg);
     background-repeat: no-repeat;
@@ -107,68 +104,68 @@
     height: 650px;
     width: 75%;
     float: right; }
-  /* line 116, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 114, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #sub_image {
-    width: 70%;
+    width: 80%;
     height: 300px;
     border-radius: 80%;
     padding: 5%; }
-  /* line 122, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 120, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #sub_image_titie {
     padding: 50px 0px 20px 0px;
     text-align: center;
     font-size: 300%;
     color: #FF5000; }
-  /* line 128, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 126, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #sub_image_titie_talk {
     padding: 19px 0px 20px 0px;
     text-align: center;
     font-size: 300%;
     color: #FF5000; }
-  /* line 134, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 132, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #sub_image_titie_recommend {
-    padding: 50px 0px 26px 0px;
+    padding: 52px 0px 25px 0px;
     text-align: center;
     font-size: 260%;
     color: #FF5000; }
-  /* line 144, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 142, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #Apple_Music {
     height: 130px;
     border-radius: 0%;
     padding-left: 68%;
     margin-top: 21%; }
-  /* line 149, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 147, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #Spotify {
     height: 130px;
     border-radius: 0%;
     padding-left: 20%;
     margin-top: 2%; }
-  /* line 154, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 152, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #SoundCloud {
     height: 130px;
     border-radius: 0%;
     padding-left: 68%;
     margin-top: 2%; }
-  /* line 159, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 157, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #Youtube {
     height: 130px;
     border-radius: 0%;
     padding-left: 20%;
     margin-top: 2%; }
-  /* line 164, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 162, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #smartphone_white {
-    height: 57em;
-    width: 80.2%;
+    height: 52.4em;
+    width: 74.2%;
     margin-top: 1.3%;
     margin-left: 16%; }
-  /* line 170, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 168, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .Listening_side {
     background-image: url(../image/headphone_lp.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 650px;
     /* width: 100%; */ }
-  /* line 177, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 175, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .community_back {
     background-image: url(../image/recommend_back.jpeg);
     background-repeat: no-repeat;
@@ -176,54 +173,54 @@
     width: 100%;
     height: 760px;
     margin-top: 7em; }
-  /* line 185, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 183, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #share_twi {
     height: 140px;
     text-align: center;
-    padding-left: 33%; }
-  /* line 190, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    padding-left: 31%; }
+  /* line 188, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #share_face {
     height: 140px;
     text-align: center;
-    padding-left: 33%; }
-  /* line 195, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    padding-left: 31%; }
+  /* line 193, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #share_hatena {
     height: 85px;
     text-align: center;
-    padding-left: 38%;
+    padding-left: 36%;
     margin-top: 5%; }
-  /* line 201, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 199, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   footer {
     background-color: #020202;
     width: 100%;
     height: 300px; }
-  /* line 206, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 204, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #fotter_title {
     text-align: center;
     font-size: 800%;
     color: #FF5000;
     font-family: 'Fredoka One', cursive;
     text-shadow: 1px 1px 10px #020202; }
-  /* line 213, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 211, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #fotter_sub_title {
     text-align: center;
     color: #FFF;
     padding-top: 2%;
     margin-left: 46%; }
-  /* line 219, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 217, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #fotter_copyright {
     text-align: center;
     color: #FFF;
     padding-top: 3em; } }
 
-@media screen and (min-width: 993px) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 228, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+@media screen and (min-width: 1024px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 226, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   input[type="date"].form-control,
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
     line-height: 36px; }
-  /* line 238, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 236, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   input[type="date"].input-sm,
   .input-group-sm input[type="date"],
   input[type="time"].input-sm,
@@ -233,7 +230,7 @@
   input[type="month"].input-sm,
   .input-group-sm input[type="month"] {
     line-height: 24px; }
-  /* line 248, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 246, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   input[type="date"].input-lg,
   .input-group-lg input[type="date"],
   input[type="time"].input-lg,
@@ -244,11 +241,11 @@
   .input-group-lg input[type="month"] {
     line-height: 44px; } }
 
-@media (min-width: 993px) {
-  /* line 252, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+@media (min-width: 1024px) and (max-width: 1024px) {
+  /* line 250, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .input-group {
     padding-top: 5em; }
-  /* line 255, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 253, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -263,7 +260,7 @@
     direction: ltr;
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased; }
-  /* line 271, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 269, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .form-control,
   .form-group .form-control {
     border: 0;
@@ -277,150 +274,150 @@
     box-shadow: none;
     border-radius: 0;
     font-weight: 400; }
-  /* line 284, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 282, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .chara_title {
     margin: 80px 0px -40px 0px; }
-  /* line 287, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 285, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #character {
     background-image: url(../image/smartphone_white_3.png);
     background-repeat: no-repeat;
     background-size: inherit;
     height: 650px;
     margin-top: 7%; }
-  /* line 294, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 292, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #black_iphone {
     height: auto;
-    margin-top: -12%;
+    margin-top: 3%;
     width: 81%;
     margin-left: -4%; }
-  /* line 300, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 298, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #hatena_p {
     text-align: center;
     padding-top: 2.8em; }
-  /* line 304, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 302, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #twitter_p {
     text-align: center; }
-  /* line 307, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 305, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #facebook_p {
     text-align: center; }
-  /* line 310, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 308, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #share_section {
-    height: 600px; }
-  /* line 313, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    height: 400px; }
+  /* line 311, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #iOS_download {
-    width: 39%;
-    height: 5.2em;
-    opacity: 0.7;
-    border-radius: 5px; }
-  /* line 319, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    width: 44%;
+    height: 100%;
+    opacity: 0.5;
+    padding-top: 5%; }
+  /* line 317, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   hr {
     height: 10px;
     border: 0;
     box-shadow: 0 10px 10px -10px #8c8b8b inset; }
-  /* line 324, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 322, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #concept_sub_p {
     margin-top: 14%;
     font-size: 200%;
     line-height: 2; }
-  /* line 329, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 327, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #character_sub_p {
     margin-top: 17%;
     font-size: 200%;
     line-height: 2; }
-  /* line 334, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 332, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #listening_sub_p {
     margin-top: 10%;
     font-size: 200%;
     line-height: 2; }
-  /* line 339, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 337, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #warning_p {
     margin-top: 12%;
     font-size: 120%; }
-  /* line 343, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 341, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #concept_main_title {
     text-align: center;
     font-size: 300%;
     padding: 2% 2%;
     color: #FF5000; }
-  /* line 349, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 347, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #concept_main_p {
     font-size: 300%;
     color: #FF5000; }
-  /* line 353, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 351, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #character_main_p {
     font-size: 350%;
     color: #FF5000;
     font-weight: 900;
     font-family: impact;
     padding-top: 11%; }
-  /* line 360, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 358, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #listening_main_p {
     font-size: 290%;
     padding-top: 6%; }
-  /* line 364, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 362, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #sub_image_p {
     font-size: 127%; }
-  /* line 367, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 365, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #sub_image_p_talk {
     font-size: 127%; }
-  /* line 370, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 368, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #community_main_p {
-    font-size: 371%;
+    font-size: 400%;
     color: #FFFFFF;
-    padding-top: 7%; }
-  /* line 375, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    padding-top: 4%; }
+  /* line 373, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #community_sub_p {
     padding-top: 4%;
-    font-size: 190%;
+    font-size: 170%;
     color: #FFFFFF;
     line-height: 2; }
-  /* line 381, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 379, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #white_text_form {
     width: 225px;
     height: 34px;
     background-color: #FFF;
     border-radius: 30px 0px 0px 30px; }
-  /* line 387, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 385, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #black_submit {
     width: 200px;
     height: 200px;
     background-color: #020202; }
-  /* line 392, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 390, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .form-group {
     width: 40%;
     height: 50px;
     background-color: #FFF;
     border-radius: 30px 0px 0px 30px; }
-  /* line 399, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 397, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .form-inline .btn {
     background-color: #FF5000;
     width: 28%;
     height: 52px;
     border-radius: 0px 30px 30px 0px;
     color: #FFFFF0; }
-  /* line 407, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 405, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .form-inline {
     padding-top: 12%; }
-  /* line 410, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 408, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .relative_first {
     position: relative; }
-  /* line 413, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 411, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .relative_first_messenger {
     position: relative;
-    top: -5.1em;
-    right: -26%; }
-  /* line 418, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    top: -6.85em;
+    right: -33%; }
+  /* line 416, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .absolute_first {
     position: absolute;
     color: #fff;
-    top: 34%;
+    top: 50%;
     left: 37%;
-    font-size: 20px;
+    font-size: 120%;
     text-shadow: 1px 1px 10px #020202; }
-  /* line 426, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 424, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .relative_second {
     position: relative; }
-  /* line 429, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 427, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .absolute_second {
     position: absolute;
     color: #fff;
@@ -429,76 +426,75 @@
     font-size: 40px;
     text-shadow: 1px 1px 5px #020202;
     font-weight: 900; }
-  /* line 438, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 436, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .line {
-    margin-top: 22%;
-    margin-right: 45%; }
-  /* line 442, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    margin-top: 14%; }
+  /* line 439, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #logo {
     font-size: 800%;
     color: #FF5000;
     font-family: 'Fredoka One', cursive;
     text-shadow: 1px 1px 10px #020202;
     /*padding-top: 35%;*/ }
-  /* line 449, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 446, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #catch_copy {
     font-size: 300%;
     color: #FFF;
     text-shadow: 1px 1px 10px #020202;
     font-weight: bold;
     white-space: nowrap; }
-  /* line 456, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 453, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #pink_p {
     color: #FF5000; }
-  /* line 459, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 456, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .slideshow img {
     position: absolute;
-    left: 24.3%;
+    left: 23.8%;
     top: 18.5%;
     opacity: 0;
     transition: 1s;
-    width: 64.2%;
-    height: 42.8em; }
-  /* line 468, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    width: 59.5%;
+    height: 39.4em; }
+  /* line 465, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .slideshow .show {
     opacity: 1; }
-  /* line 471, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 468, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .slideshow_2 img {
     position: absolute;
-    left: 7.3%;
-    top: 7.1%;
+    left: 7.2%;
+    top: 15.5%;
     opacity: 0;
     transition: 1s;
-    height: 65.8%;
+    height: 59.8%;
     width: auto; }
-  /* line 480, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 477, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .slideshow_2 .show {
     opacity: 1; }
-  /* line 483, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 480, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #share_title {
-    margin-top: 1%;
+    margin: 0px;
     padding-bottom: 10px; }
-  /* line 487, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 484, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #release {
     color: #FFFFF0;
     /* padding-top: 5%; */
     font-size: 140%;
     position: relative;
-    top: 4em; }
-  /* line 494, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+    top: 2em; }
+  /* line 491, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .page-top {
     display: none; }
-  /* line 497, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 494, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #release2 {
     color: #FFFFF0;
     font-size: 24px;
     position: relative;
     top: 2em; }
-  /* line 503, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 500, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   .line2 {
     margin-top: 15%;
     text-align: center; }
-  /* line 507, /Users/kikuchi/Desktop/apolochat/css/index.scss */
+  /* line 504, /Users/kikuchi/Desktop/apolochat/css/ipad_1_rotate.scss */
   #sns_p {
     padding-top: 26%;
     font-size: 160%;
@@ -507,4 +503,4 @@
     font-weight: bold;
     white-space: nowrap; } }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=ipad_1_rotate.css.map */

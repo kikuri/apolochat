@@ -70,7 +70,7 @@
         margin: 0;
         padding: 0;
         font-family: Helvetica;
-        font-size: 20px;
+        font-size: 17px;
         text-align: left;
         margin-right: -7%;
     }
@@ -149,6 +149,12 @@
         font-size: 300%;
         color: #FF5000;
     }
+    #sub_image_titie_recommend {
+        padding: 52px 0px 26px 0px;
+        text-align: center;
+        font-size: 260%;
+        color: #FF5000;
+    }
     /* line 110, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 121, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #Apple_Music {
@@ -199,13 +205,12 @@
     /* line 141, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 162, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     .community_back {
-        background-image: url(../image/community_back.jpeg);
+        background-image: url(../image/recommend_back.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 800px;
+        height: 760px;
         margin-top: 7em;
-        line-height: 1.6;
     }
     /* line 149, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 171, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -385,10 +390,11 @@
     /* line 277, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 325, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #iOS_download {
-        width: 25%;
+        width: 28%;
         height: 100%;
-        opacity: 0.5;
-        padding-top: 5%;
+        opacity: 0.8;
+        /* padding-top: 5%; */
+        border-radius: 5px;
     }
     /* line 283, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 332, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -472,15 +478,15 @@
     /* line 332, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 392, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #community_main_p {
-        font-size: 400%;
+        font-size: 360%;
         color: #FFFFFF;
-        padding-top: 20%;
+        padding-top: 8%;
         text-align: center;
     }
     /* line 337, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 399, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #community_sub_p {
-        padding-top: 16%;
+        padding-top: 11%;
         font-size: 200%;
         color: #FFFFFF;
         line-height: 2;
@@ -530,6 +536,11 @@
         position: relative;
         display: none;
     }
+    .relative_first_messenger {
+        position: relative;
+        top: -5em;
+        left: 16%;
+    }
     #relative_6s {
         display: block;
     }
@@ -538,7 +549,7 @@
     .absolute_first {
         position: absolute;
         color: #fff;
-        top: 54%;
+        top: 33%;
         left: 40%;
         font-size: 20px;
         text-shadow: 1px 1px 10px #020202;
@@ -561,6 +572,7 @@
     }
     .line {
         margin-top: 14%;
+        margin-right: 30%;
     }
     #line {
         height: 4em;
@@ -629,7 +641,7 @@
     #release {
         color: #FFFFF0;
         /* padding-top: 5%; */
-        font-size: 21px;
+        font-size: 140%;
         position: relative;
         top: 2em;
     }
@@ -640,11 +652,11 @@
         color: #FFFFF0;
         font-size: 24px;
         position: relative;
-        top: 1em;
+        top: 4em;
         text-align: center;
     }
     .line2 {
-        margin-top: 10%;
+        margin-top: 17%;
         text-align: center;
     }
     #sns_p {

@@ -32,3 +32,63 @@ $(window).load(function () {
         setTimeout(slide, interval); // 再びタイマーセット
     }
 });
+$(function () {
+    $("#share_section .col-lg-4").hover(function () {
+        $(this).stop().animate({
+            "font-weight": "bold"
+            , "margin-top": "-15px"
+            , "text-decoration": "none"
+        });
+    }, function () {
+        $(this).stop().animate({
+            "font-weight": "normal"
+            , "margin-top": "0px"
+            , "text-decoration": "none"
+        });
+    });
+});
+$(function () {
+    $("#share_section .col-lg-4").hover(function () {
+        $(this).stop().animate({
+            "font-weight": "bold"
+            , "margin-top": "-15px"
+            , "text-decoration": "none"
+        });
+    }, function () {
+        $(this).stop().animate({
+            "font-weight": "normal"
+            , "margin-top": "0px"
+            , "text-decoration": "none"
+        });
+    });
+});
+$(function () {
+    $("#share_section .col-lg-4").hover(function () {
+        $(this).stop().animate({
+            "font-weight": "bold"
+            , "margin-top": "-15px"
+            , "text-decoration": "none"
+        });
+    }, function () {
+        $(this).stop().animate({
+            "font-weight": "normal"
+            , "margin-top": "0px"
+            , "text-decoration": "none"
+        });
+    });
+});
+$(function () {
+    $("#share_section .col-lg-4").hover(function () {
+        $(this).stop().animate({
+            "font-weight": "bold"
+            , "margin-top": "-15px"
+            , "text-decoration": "none"
+        });
+    }, function () {
+        $(this).stop().animate({
+            "font-weight": "normal"
+            , "margin-top": "0px"
+            , "text-decoration": "none"
+        });
+    });
+});

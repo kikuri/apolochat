@@ -1,4 +1,4 @@
-@media (max-width: 414px) {
+@media(min-width:381px) and (max-width: 414px) {
     @font-face {
         font-family: 'marketing script';
         src: url('../font/MarketingScript.svg') format('svg');
@@ -54,7 +54,7 @@
         padding: 0;
         float: right;
         font-family: Helvetica;
-        font-size: 20px;
+        font-size: 17px;
     }
     .navbar-default .navbar-nav li {
         float: left;
@@ -103,7 +103,7 @@
         margin-top: -30em;
     }
     #sub_image {
-        width: 70%;
+        width: 60%;
         height: 250px;
         border-radius: 80%;
         padding: 10px;
@@ -118,6 +118,12 @@
         padding: 10px 0px 10px 0px;
         text-align: center;
         font-size: 200%;
+        color: #FF5000;
+    }
+    #sub_image_titie_recommend {
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        font-size: 160%;
         color: #FF5000;
     }
     @mixin listening_sub_image {
@@ -148,7 +154,7 @@
         background-size: contain;
         width: 63.1%;
         position: relative;
-        top: -50em;
+        top: -51em;
         height: 34.6em;
         left: 17%;
     }
@@ -159,13 +165,12 @@
         height: 510px;
     }
     .community_back {
-        background-image: url(../image/community_back.jpeg);
+        background-image: url(../image/recommend_back.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 1270px;
+        height: 760px;
         margin-top: 7em;
-        line-height: 1.6;
     }
     #share_twi {
         height: 125px;
@@ -275,6 +280,7 @@
     }
     #black_iphone {
         width: 100%;
+        display: none;
     }
     #hatena_p {
         text-align: center;
@@ -292,8 +298,8 @@
         height: 600px;
     }
     #iOS_download {
-        width: 32%;
-        height: 5em;
+        width: 50%;
+        height: 4.44em;
         opacity: 0.5;
         padding-top: 2em;
     }
@@ -370,10 +376,10 @@
         margin-right: 5%;
     }
     #community_main_p {
-        font-size: 250%;
+        font-size: 270%;
         color: #FFFFFF;
         text-align: center;
-        margin-top: -3em;
+        margin-top: 1em;
     }
     #community_sub_p {
         font-size: 150%;
@@ -425,13 +431,18 @@
     }
     .relative_first {
         position: relative;
-        top: 39em;
+        top: 40em;
+    }
+    .relative_first_messenger {
+        position: relative;
+        top: -5.1em;
+        margin-left: 40%;
     }
     .absolute_first {
         position: absolute;
         color: #fff;
-        top: 3.3em;
-        left: 13.5em;
+        top: 3.1em;
+        left: 7em;
         font-size: 12px;
         text-shadow: 1px 1px 10px #020202;
     }
@@ -453,7 +464,9 @@
     }
     .line {
         position: relative;
-        top: 33.5em;
+        top: 37.5em;
+        margin-right: 40%;
+        z-index: 10;
     }
     #line {
         height: 3em;
@@ -478,7 +491,7 @@
     .slideshow img {
         position: absolute;
         left: 23.9%;
-        top: -126.6%;
+        top: -129.7%;
         opacity: 0;
         transition: 1s;
         width: auto;
@@ -505,16 +518,17 @@
     #share_title {
         margin: 0px;
         padding-bottom: 10px;
+        margin-top: 8%;
     }
     #release {
         color: #FFFFF0;
         /* padding-top: 5%; */
         font-size: 17px;
         position: relative;
-        top: 27em;
+        top: 30em;
     }
     #relative_6s {
-        top: 31em;
+        top: 33em;
     }
     #sub_image_p_talk {
         margin-left: 5%;
@@ -554,7 +568,7 @@
         text-align: center;
         margin-left: 3%;
         margin-right: 3%;
-        margin-top: 1%;
+        margin-top: 11%;
     }
     .line2 {
         margin-top: 5%;
@@ -565,11 +579,13 @@
         white-space: pre;
     }
     #sns_p {
-        padding-top: 7%;
-        font-size: 150%;
+        padding-top: 5%;
+        font-size: 120%;
         color: #fff;
         text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
+        position: relative;
+        top: 0.3em;
     }
 }

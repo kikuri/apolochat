@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media (min-width:415px) and (max-width: 767px) {
+@media (min-width:768px) and (max-width: 768px) {
     /* line 2, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 4, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     @font-face {
@@ -128,15 +128,15 @@
     /* line 88, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 100, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #sub_image {
-        /* width: 80%; */
-        height: 300px;
+        width: 100%;
+        height: 250px;
         border-radius: 80%;
         padding: 5%;
     }
     /* line 94, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 107, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #sub_image_titie {
-        padding: 20px 0px 20px 0px;
+        padding: 50px 0px 20px 0px;
         text-align: center;
         font-size: 300%;
         color: #FF5000;
@@ -150,9 +150,9 @@
         color: #FF5000;
     }
     #sub_image_titie_recommend {
-        padding: 22px 0px 26px 0px;
+        padding: 50px 0px 27px 0px;
         text-align: center;
-        font-size: 260%;
+        font-size: 250%;
         color: #FF5000;
     }
     /* line 110, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
@@ -217,21 +217,21 @@
     #share_twi {
         height: 140px;
         text-align: center;
-        padding-left: 43%;
+        padding-left: 27%;
     }
     /* line 154, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 177, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #share_face {
         height: 140px;
         text-align: center;
-        padding-left: 43%;
+        padding-left: 28%;
     }
     /* line 159, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 183, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #share_hatena {
         height: 85px;
         text-align: center;
-        padding-left: 45%;
+        padding-left: 33%;
         margin-top: 5%;
     }
     /* line 165, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
@@ -354,7 +354,7 @@
         background-size: inherit;
         height: 650px;
         margin-top: 7%;
-        margin-left: 7%;
+        margin-left: 16%;
     }
     /* line 257, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 299, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -368,7 +368,7 @@
     /* line 306, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #hatena_p {
         text-align: center;
-        padding-top: 5%;
+        padding-top: 19%;
         padding-left: 5%;
     }
     /* line 267, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
@@ -386,14 +386,14 @@
     /* line 274, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 321, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #share_section {
-        height: 740px;
+        height: 500px;
     }
     /* line 277, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 325, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #iOS_download {
-        width: 62%;
-        height: 6.4em;
-        opacity: 0.8;
+        width: 18%;
+        height: 100%;
+        opacity: 0.5;
         padding-top: 5%;
     }
     /* line 283, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
@@ -407,7 +407,7 @@
     /* line 338, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #concept_sub_p {
         margin-top: 8%;
-        font-size: 200%;
+        font-size: 195%;
         line-height: 1.6;
         text-align: center;
     }
@@ -428,7 +428,7 @@
     /* line 301, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 354, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #warning_p {
-        margin-top: 23%;
+        margin-top: 10%;
         font-size: 120%;
         text-align: center;
     }
@@ -443,7 +443,7 @@
     /* line 311, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 366, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #concept_main_p {
-        font-size: 300%;
+        font-size: 295%;
         color: #FF5000;
     }
     /* line 315, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
@@ -476,19 +476,18 @@
     /* line 332, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 392, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #community_main_p {
-        font-size: 400%;
+        font-size: 360%;
         color: #FFFFFF;
-        padding-top: 9%;
+        padding-top: 20%;
         text-align: center;
     }
     /* line 337, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 399, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #community_sub_p {
-        padding-top: 8%;
+        padding-top: 9%;
         font-size: 200%;
         color: #FFFFFF;
-        line-height: 1.6;
-        text-align: center;
+        line-height: 2;
     }
     /* line 342, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 405, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -540,9 +539,8 @@
     }
     .relative_first_messenger {
         position: relative;
-        top: 0.7em;
-        /* left: 24%; */
-        margin-left: 41%;
+        top: -1.85em;
+        right: -11%;
     }
     /* line 374, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 442, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -552,8 +550,8 @@
     .absolute_first {
         position: absolute;
         color: #fff;
-        top: 45%;
-        left: 35%;
+        top: 59%;
+        left: 41.5%;
         font-size: 120%;
         text-shadow: 1px 1px 10px #020202;
     }
@@ -575,8 +573,8 @@
     }
     .line {
         position: relative;
-        top: 7em;
-        margin-right: 41%;
+        top: 4em;
+        right: 10%;
     }
     #line {
         height: 3em;
@@ -656,11 +654,11 @@
         color: #FFFFF0;
         font-size: 24px;
         position: relative;
-        top: 1em;
+        top: 2em;
         text-align: center;
     }
     .line2 {
-        margin-top: 10%;
+        margin-top: 8%;
         text-align: center;
     }
     #sns_p {

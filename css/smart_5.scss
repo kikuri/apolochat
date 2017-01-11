@@ -1,4 +1,4 @@
-@media (max-width: 414px) {
+@media(max-width: 320px) {
     @font-face {
         font-family: 'marketing script';
         src: url('../font/MarketingScript.svg') format('svg');
@@ -54,7 +54,7 @@
         padding: 0;
         float: right;
         font-family: Helvetica;
-        font-size: 20px;
+        font-size: 17px;
     }
     .navbar-default .navbar-nav li {
         float: left;
@@ -79,7 +79,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 1000px;
+        height: 1020px;
     }
     .sub_title {
         margin: 10px 0px 20px 0px;
@@ -87,9 +87,6 @@
         font-family: marketing script;
         font-size: 470%;
         margin-top: 1em;
-    }
-    #Concept {
-        display: none;
     }
     #concept_title {
         margin: 0;
@@ -100,16 +97,13 @@
         background-image: url(../image/piece_partial.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 470px;
+        height: 510px;
         width: 100%;
         float: right;
         margin-top: -32em;
     }
-    #concept_li {
-        display: none;
-    }
     #sub_image {
-        width: 70%;
+        width: 60%;
         height: 250px;
         border-radius: 80%;
         padding: 10px;
@@ -124,6 +118,12 @@
         padding: 10px 0px 10px 0px;
         text-align: center;
         font-size: 200%;
+        color: #FF5000;
+    }
+    #sub_image_titie_recommend {
+        padding: 15px 0px 10px 0px;
+        text-align: center;
+        font-size: 160%;
         color: #FF5000;
     }
     @mixin listening_sub_image {
@@ -152,11 +152,11 @@
     }
     #smartphone_white {
         background-size: contain;
-        width: 81%;
+        width: 76%;
         position: relative;
-        top: -48em;
-        height: 34.6em;
-        left: 9%;
+        top: -43em;
+        height: 38em;
+        left: 13.2%;
     }
     .Listening_side {
         background-image: url(../image/headphone_lp.png);
@@ -165,29 +165,28 @@
         height: 510px;
     }
     .community_back {
-        background-image: url(../image/community_back.jpeg);
+        background-image: url(../image/recommend_back.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 1125px;
+        height: 760px;
         margin-top: 7em;
-        line-height: 1.6;
     }
     #share_twi {
         height: 125px;
         text-align: center;
-        padding-left: 31%;
+        padding-left: 7.5em;
     }
     #share_hatena {
         height: 85px;
         text-align: center;
-        padding-left: 34%;
+        padding-left: 8.3em;
         margin-top: 1em;
     }
     #share_face {
         height: 125px;
         text-align: center;
-        padding-left: 31%;
+        padding-left: 7.5em;
     }
     footer {
         background-color: #020202;
@@ -205,7 +204,7 @@
         text-align: center;
         color: #FFF;
         margin-top: 2em;
-        margin-left: 36%;
+        margin-left: 38%;
     }
     #fotter_copyright {
         text-align: center;
@@ -277,10 +276,11 @@
         background-repeat: no-repeat;
         background-size: contain;
         height: 470px;
-        margin-left: 11%;
+        margin-left: 3em;
     }
     #black_iphone {
-        width: 100%;
+        width: 98%;
+        display: none;
     }
     #hatena_p {
         text-align: center;
@@ -298,9 +298,10 @@
         height: 600px;
     }
     #iOS_download {
-        width: 40%;
+        width: 75%;
+        height: 4.5em;
         opacity: 0.5;
-        margin-top: -58%;
+        padding-top: 2em;
     }
     hr {
         height: 10px;
@@ -311,7 +312,7 @@
     #concept_sub_p {
         margin-top: 1em;
         font-size: 130%;
-        line-height: 2.3;
+        line-height: 2.5;
         text-shadow: 1px 1px 10px #020202;
         color: #FFF;
         font-weight: 900;
@@ -337,6 +338,9 @@
         font-size: 50%;
         text-align: center;
     }
+    #Concept {
+        display: none;
+    }
     #concept_main_title {
         text-align: center;
         font-size: 150%;
@@ -349,6 +353,9 @@
         color: #FFF;
         text-shadow: 1px 1px 10px #020202;
         font-weight: 900;
+    }
+    #concept_li {
+        display: none;
     }
     #character_main_p {
         font-size: 250%;
@@ -376,7 +383,7 @@
         font-size: 250%;
         color: #FFFFFF;
         text-align: center;
-        margin-top: -3em;
+        margin-top: 1em;
     }
     #community_sub_p {
         font-size: 150%;
@@ -398,43 +405,48 @@
         background-color: #020202;
     }
     .form-group {
-        width: 53%;
+        width: 215px;
         height: 50px;
         background-color: #FFF;
         border-radius: 30px 0px 0px 30px;
         margin-left: 2.5em;
         position: relative;
         top: 25em;
-        left: -1.2em;
+        left: -2em;
     }
     .form-inline {
         .btn {
             background-color: #FF5000;
-            width: 35%;
+            width: 135px;
             height: 50px;
             border-radius: 0px 30px 30px 0px;
             color: #FFFFF0;
             position: absolute;
-            top: 40.6em;
-            left: 19em;
-            white-space: initial;
-            font-size: 10px;
+            top: 29em;
+            left: 16em;
         }
     }
     .form-inline {
         padding-top: 4em;
         position: relative;
-        top: 6em;
+        top: 8em;
     }
     .relative_first {
         position: relative;
-        top: 41em;
+        top: 32em;
+    }
+    .relative_first_messenger {
+        position: relative;
+        margin-left: 50%;
+    }
+    #relative_6s {
+        top: 35.4em;
     }
     .absolute_first {
         position: absolute;
         color: #fff;
-        top: -7.7em;
-        left: 9.5em;
+        top: 3.3em;
+        left: 3em;
         font-size: 12px;
         text-shadow: 1px 1px 10px #020202;
     }
@@ -454,14 +466,16 @@
         margin-left: 12em;
         display: none;
     }
+    .absolute_third {}
     .line {
         position: relative;
-        top: 39em;
+        top: 40em;
+        right: 21%;
+        z-index: 10;
     }
     #line {
         height: 3em;
     }
-    .absolute_third {}
     #logo {
         font-size: 650%;
         color: #FF5000;
@@ -480,19 +494,19 @@
     }
     .slideshow img {
         position: absolute;
-        left: 17.9%;
-        top: -121.2%;
+        left: 21.9%;
+        top: -95.1%;
         opacity: 0;
         transition: 1s;
-        width: auto;
-        height: 26em;
+        width: 60%;
+        height: 28.5em;
     }
     .slideshow .show {
         opacity: 1;
     }
     .slideshow_2 img {
         position: absolute;
-        left: 14%;
+        left: 13.6%;
         top: 13.7%;
         opacity: 0;
         transition: 1s;
@@ -508,12 +522,13 @@
     #share_title {
         margin: 0px;
         padding-bottom: 10px;
+        margin-top: 8%;
     }
     #release {
         color: #FFFFF0;
-        font-size: 13px;
+        font-size: 100%;
         position: relative;
-        top: 40em;
+        top: 39em;
     }
     .page-top {
         margin: 0;
@@ -524,7 +539,7 @@
         padding: 0;
         right: 16px;
         bottom: 16px;
-        margin-left: 83%;
+        margin-left: 84%;
     }
     .move-page-top {
         display: block;
@@ -549,10 +564,10 @@
         text-align: center;
         margin-left: 3%;
         margin-right: 3%;
-        margin-top: 1%;
+        margin-top: 8%;
     }
     .line2 {
-        margin-top: 5%;
+        margin-top: 8%;
         text-align: center;
     }
     .br_5:before {
@@ -560,11 +575,12 @@
         white-space: pre;
     }
     #sns_p {
-        padding-top: 7%;
-        font-size: 150%;
+        font-size: 120%;
         color: #fff;
         text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
+        position: relative;
+        top: 0.7em;
     }
 }
