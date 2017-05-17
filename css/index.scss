@@ -30,7 +30,7 @@
         height: auto;
     }
     @mixin pink {
-        color: #FF5000;
+        color: #FF5050;
     }
     .container {
         padding-right: 0px;
@@ -48,7 +48,7 @@
         padding: 0.3em 0;
         text-align: center;
         float: left;
-        color: #FF5000;
+        color: #FFF;
         font-size: 23px;
         font-family: 'Fredoka One', cursive;
     }
@@ -90,7 +90,7 @@
         color: white;
     }
     .eyecatch {
-        background-image: url(../image/eyecatch_8.png);
+        background-image: url(../image/top_background.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -120,22 +120,31 @@
         padding: 5%;
     }
     #sub_image_titie {
-        padding: 50px 0px 20px 0px;
+        padding: 50px 0px 26px 0px;
         text-align: center;
-        font-size: 300%;
-        color: #FF5000;
+        font-size: 240%;
+        color: #FF5050;
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-family: Fredoka One;
     }
     #sub_image_titie_talk {
-        padding: 19px 0px 20px 0px;
+        padding: 21px 0px 26px 0px;
         text-align: center;
-        font-size: 300%;
-        color: #FF5000;
+        font-size: 240%;
+        color: #FF5050;
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-family: Fredoka One;
     }
     #sub_image_titie_recommend {
         padding: 50px 0px 26px 0px;
         text-align: center;
-        font-size: 260%;
-        color: #FF5000;
+        font-size: 240%;
+        color: #FF5050;
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-family: Fredoka One;
     }
     @mixin listening_sub_image {
         height: 130px;
@@ -143,7 +152,7 @@
     }
     #Apple_Music {
         @include listening_sub_image;
-        padding-left: 68%;
+        padding-left: 69%;
         margin-top: 21%;
     }
     #Spotify {
@@ -153,7 +162,7 @@
     }
     #SoundCloud {
         @include listening_sub_image;
-        padding-left: 68%;
+        padding-left: 69%;
         margin-top: 2%;
     }
     #Youtube {
@@ -175,7 +184,7 @@
         /* width: 100%; */
     }
     .community_back {
-        background-image: url(../image/recommend_back.jpeg);
+        background-image: url(../image/recommend_background.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -206,7 +215,7 @@
     #fotter_title {
         text-align: center;
         font-size: 800%;
-        color: #FF5000;
+        color: #FF5050;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
     }
@@ -215,6 +224,7 @@
         color: #FFF;
         padding-top: 2%;
         margin-left: 46%;
+        text-decoration: none;
     }
     #fotter_copyright {
         text-align: center;
@@ -285,7 +295,7 @@
         margin: 80px 0px -40px 0px;
     }
     #character {
-        background-image: url(../image/smartphone_white_3.png);
+        background-image: url(../image/smartphone_white_4.png);
         background-repeat: no-repeat;
         background-size: inherit;
         height: 650px;
@@ -313,8 +323,15 @@
     #iOS_download {
         width: 39%;
         height: 5.2em;
-        opacity: 0.7;
+        //        opacity: 0.7;
         border-radius: 5px;
+  
+    }
+    #iOS_download2 {
+        width: 39%;
+        height: 5.4em;
+        border-radius: 5px;
+ 
     }
     hr {
         height: 10px;
@@ -344,17 +361,17 @@
         text-align: center;
         font-size: 300%;
         padding: 2% 2%;
-        color: #FF5000;
+        color: #FF5050;
     }
     #concept_main_p {
         font-size: 300%;
-        color: #FF5000;
+        color: #FF5050;
     }
     #character_main_p {
         font-size: 350%;
-        color: #FF5000;
+        color: #FF5050;
         font-weight: 900;
-        font-family: impact;
+        //        font-family: impact;
         padding-top: 11%;
     }
     #listening_main_p {
@@ -397,7 +414,7 @@
     }
     .form-inline {
         .btn {
-            background-color: #FF5000;
+            background-color: #FF5050;
             width: 28%;
             height: 52px;
             border-radius: 0px 30px 30px 0px;
@@ -413,7 +430,7 @@
     .relative_first_messenger {
         position: relative;
         top: -5.1em;
-        right: -26%;
+        right: -24%;
     }
     .absolute_first {
         position: absolute;
@@ -436,12 +453,12 @@
         font-weight: 900;
     }
     .line {
-        margin-top: 22%;
-        margin-right: 45%;
+        margin-top: 26%;
+        margin-right: 47%;
     }
     #logo {
         font-size: 800%;
-        color: #FF5000;
+        color: #FF5050;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
         /*padding-top: 35%;*/
@@ -449,9 +466,10 @@
     #catch_copy {
         font-size: 300%;
         color: #FFF;
-        text-shadow: 1px 1px 10px #020202;
+        //        text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
+        margin-top: 17%;
     }
     #pink_p {
         @include pink;
@@ -487,9 +505,10 @@
     #release {
         color: #FFFFF0;
         /* padding-top: 5%; */
-        font-size: 140%;
+        font-size: 160%;
         position: relative;
         top: 4em;
+        font-weight: bold;
     }
     .page-top {
         display: none;
@@ -502,14 +521,31 @@
     }
     .line2 {
         margin-top: 15%;
-        text-align: center;
+        //        text-align: center;
     }
     #sns_p {
-        padding-top: 26%;
+        padding-top: 46%;
         font-size: 160%;
         color: #fff;
-        text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
+    }
+    #logo2 {
+        margin-top: 3%;
+    }
+    .relative_second_messenger {
+        position: relative;
+        top: -5.3em;
+        right: -55%;
+    }
+    .br_index:before {
+        content: "\A";
+        white-space: pre;
+    }
+    #fotter_logo {
+        text-align: center;
+        margin-left: 26%;
+        margin-top: 5%;
+        margin-bottom: 2%;
     }
 }

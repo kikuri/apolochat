@@ -45,7 +45,7 @@
         padding: 0.3em 0;
         text-align: center;
         float: left;
-        color: #FF5000;
+        color: #FFF;
         font-size: 23px;
         font-family: 'Fredoka One', cursive;
     }
@@ -101,7 +101,7 @@
     /* line 67, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 76, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     .eyecatch {
-        background-image: url(../image/eyecatch_8.png);
+        background-image: url(../image/top_background.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -136,10 +136,13 @@
     /* line 94, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 107, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #sub_image_titie {
-        padding: 50px 0px 20px 0px;
+        padding: 50px 0px 26px 0px;
         text-align: center;
-        font-size: 300%;
-        color: #FF5000;
+        font-size: 240%;
+        color: #FF5050;
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-family: Fredoka One;
     }
     /* line 100, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 114, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -147,13 +150,16 @@
         padding: 19px 0px 20px 0px;
         text-align: center;
         font-size: 300%;
-        color: #FF5000;
+        color: #FF5050;
     }
     #sub_image_titie_recommend {
-        padding: 52px 0px 26px 0px;
+        padding: 50px 0px 26px 0px;
         text-align: center;
-        font-size: 260%;
-        color: #FF5000;
+        font-size: 240%;
+        color: #FF5050;
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-family: Fredoka One;
     }
     /* line 110, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 121, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -205,7 +211,7 @@
     /* line 141, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 162, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     .community_back {
-        background-image: url(../image/recommend_back.jpeg);
+        background-image: url(../image/recommend_background.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -246,7 +252,7 @@
     #fotter_title {
         text-align: center;
         font-size: 800%;
-        color: #FF5000;
+        color: #FF5050;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
     }
@@ -257,6 +263,7 @@
         color: #FFF;
         padding-top: 2%;
         margin-left: 45%;
+        text-decoration: none;
     }
     /* line 182, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 210, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -349,7 +356,7 @@
     /* line 250, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 290, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #character {
-        background-image: url(../image/smartphone_white_3.png);
+        background-image: url(../image/smartphone_white_4.png);
         background-repeat: no-repeat;
         background-size: inherit;
         height: 650px;
@@ -392,9 +399,16 @@
     #iOS_download {
         width: 28%;
         height: 100%;
-        opacity: 0.8;
+        //        opacity: 0.8;
         /* padding-top: 5%; */
         border-radius: 5px;
+    
+    }
+    #iOS_download2 {
+        width: 30%;
+        height: 5.3em;
+        border-radius: 5px;
+   
     }
     /* line 283, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 332, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -440,21 +454,21 @@
         text-align: center;
         font-size: 300%;
         padding: 2% 2%;
-        color: #FF5000;
+        color: #FF5050;
     }
     /* line 311, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 366, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #concept_main_p {
         font-size: 300%;
-        color: #FF5000;
+        color: #FF5050;
     }
     /* line 315, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 371, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #character_main_p {
         font-size: 350%;
-        color: #FF5000;
+        color: #FF5050;
         font-weight: 900;
-        font-family: impact;
+        //        font-family: impact;
         padding-top: 11%;
         text-align: center;
     }
@@ -518,7 +532,7 @@
     /* line 360, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 425, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     .form-inline .btn {
-        background-color: #FF5000;
+        background-color: #FF5050;
         width: 28%;
         height: 52px;
         border-radius: 0px 30px 30px 0px;
@@ -581,7 +595,7 @@
     /* line 465, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #logo {
         font-size: 800%;
-        color: #FF5000;
+        color: #FF5050;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
         /*padding-top: 10%;*/
@@ -591,14 +605,15 @@
     #catch_copy {
         font-size: 300%;
         color: #FFF;
-        text-shadow: 1px 1px 10px #020202;
+        //        text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
+        margin-top: 17%;
     }
     /* line 409, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 481, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #pink_p {
-        color: #FF5000;
+        color: #FF5050;
     }
     /* line 412, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 485, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -652,25 +667,36 @@
         color: #FFFFF0;
         font-size: 24px;
         position: relative;
-        top: 4em;
+        top: 0.5em;
         text-align: center;
     }
     .line2 {
-        margin-top: 17%;
-        text-align: center;
+        margin-top: 5%;
+        //        text-align: center;
     }
     #sns_p {
-        padding-top: 10%;
+        padding-top: 8%;
         font-size: 200%;
         color: #fff;
-        text-shadow: 1px 1px 10px #020202;
+        //        text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
+    }
+    #logo_title {
+        width: 29%;
+    }
+    /*# sourceMappingURL=index_3.css.map */
+    .relative_second_messenger {
+        position: relative;
+        top: -5.3em;
+        right: -55%;
+    }
+    #fotter_logo {
+        margin-left: 13%;
+        margin-top: 9%;
+        margin-bottom: 4%;
     }
 }
 
 
 /*# sourceMappingURL=index_2.css.map */
-
-
-/*# sourceMappingURL=index_3.css.map */

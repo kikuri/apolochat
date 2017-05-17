@@ -1,4 +1,4 @@
-@media(max-width: 320px) {
+@media(min-width:381px) and (max-width: 414px) {
     @font-face {
         font-family: 'marketing script';
         src: url('../font/MarketingScript.svg') format('svg');
@@ -17,7 +17,7 @@
         font-family: "Apercu Regular", "Avenir", "Open Sans", "Adobe Calson Pro", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, "marketing script";
     }
     @mixin pink {
-        color: #FF5000;
+        color: #FF5050;
     }
     .container {
         padding-right: 0px;
@@ -34,7 +34,7 @@
     .title {
         text-align: center;
         float: left;
-        color: #FF5000;
+        color: #FFF;
         font-size: 23px;
         font-family: 'Fredoka One', cursive;
     }
@@ -75,11 +75,11 @@
         color: white;
     }
     .eyecatch {
-        background-image: url(../image/eyecatch_8.png);
+        background-image: url(../image/top_background.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 1020px;
+        height: 920px;
     }
     .sub_title {
         margin: 10px 0px 20px 0px;
@@ -100,7 +100,7 @@
         height: 510px;
         width: 100%;
         float: right;
-        margin-top: -32em;
+        margin-top: -30em;
     }
     #sub_image {
         width: 60%;
@@ -112,19 +112,22 @@
         padding: 15px 0px 10px 0px;
         text-align: center;
         font-size: 200%;
-        color: #FF5000;
+        color: #FF5050;
+        font-family: Fredoka One;
     }
     #sub_image_titie_talk {
         padding: 10px 0px 10px 0px;
         text-align: center;
         font-size: 200%;
-        color: #FF5000;
+        color: #FF5050;
+        font-family: Fredoka One;
     }
     #sub_image_titie_recommend {
-        padding: 15px 0px 10px 0px;
+        padding: 10px 0px 10px 0px;
         text-align: center;
         font-size: 160%;
-        color: #FF5000;
+        color: #FF5050;
+        font-family: Fredoka One;
     }
     @mixin listening_sub_image {
         height: 100px;
@@ -152,11 +155,11 @@
     }
     #smartphone_white {
         background-size: contain;
-        width: 76%;
+        width: 63.1%;
         position: relative;
-        top: -43em;
-        height: 38em;
-        left: 13.2%;
+        top: -51em;
+        height: 34.6em;
+        left: 17%;
     }
     .Listening_side {
         background-image: url(../image/headphone_lp.png);
@@ -165,7 +168,7 @@
         height: 510px;
     }
     .community_back {
-        background-image: url(../image/recommend_back.jpeg);
+        background-image: url(../image/recommend_background.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -175,18 +178,18 @@
     #share_twi {
         height: 125px;
         text-align: center;
-        padding-left: 7.5em;
+        padding-left: 35%;
     }
     #share_hatena {
         height: 85px;
         text-align: center;
-        padding-left: 8.3em;
+        padding-left: 38%;
         margin-top: 1em;
     }
     #share_face {
         height: 125px;
         text-align: center;
-        padding-left: 7.5em;
+        padding-left: 35%;
     }
     footer {
         background-color: #020202;
@@ -196,7 +199,7 @@
     #fotter_title {
         text-align: center;
         font-size: 650%;
-        color: #FF5000;
+        color: #FF5050;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
     }
@@ -204,7 +207,8 @@
         text-align: center;
         color: #FFF;
         margin-top: 2em;
-        margin-left: 38%;
+        margin-left: 36%;
+        text-decoration: none;
     }
     #fotter_copyright {
         text-align: center;
@@ -272,14 +276,14 @@
         font-weight: 400;
     }
     #character {
-        background-image: url(../image/smartphone_white_3.png);
+        background-image: url(../image/smartphone_white_4.png);
         background-repeat: no-repeat;
         background-size: contain;
         height: 470px;
-        margin-left: 3em;
+        margin-left: 19%;
     }
     #black_iphone {
-        width: 98%;
+        width: 100%;
         display: none;
     }
     #hatena_p {
@@ -298,10 +302,17 @@
         height: 600px;
     }
     #iOS_download {
-        width: 75%;
-        height: 4.5em;
-        opacity: 0.5;
+        width: 44%;
+        height: 4.44em;
+        //        opacity: 0.5;
         padding-top: 2em;
+    }
+    #iOS_download2 {
+        width: 29%;
+        height: 2.44em;
+        //        padding-top: 2em;
+        margin-left: 51%;
+
     }
     hr {
         height: 10px;
@@ -312,7 +323,7 @@
     #concept_sub_p {
         margin-top: 1em;
         font-size: 130%;
-        line-height: 2.5;
+        line-height: 2.6;
         text-shadow: 1px 1px 10px #020202;
         color: #FFF;
         font-weight: 900;
@@ -321,7 +332,7 @@
         margin-top: 2em;
         font-size: 150%;
         text-align: center;
-        line-height: 2.1;
+        line-height: 2.3;
         margin-left: 3%;
         margin-right: 3%;
     }
@@ -329,7 +340,7 @@
         margin-top: 2em;
         font-size: 150%;
         text-align: center;
-        line-height: 2.1;
+        line-height: 2.3;
         margin-left: 3%;
         margin-right: 3%;
     }
@@ -345,11 +356,11 @@
         text-align: center;
         font-size: 150%;
         padding: 20px 20px;
-        color: #FF5000;
+        color: #FF5050;
     }
     #concept_main_p {
         font-size: 200%;
-        color: #FF5000;
+        color: #FF5050;
         color: #FFF;
         text-shadow: 1px 1px 10px #020202;
         font-weight: 900;
@@ -359,9 +370,9 @@
     }
     #character_main_p {
         font-size: 250%;
-        color: #FF5000;
+        color: #FF5050;
         font-weight: 900;
-        font-family: impact;
+        //        font-family: impact;
         padding-top: 1em;
         text-align: center;
     }
@@ -372,15 +383,11 @@
     }
     #sub_image_p {
         text-align: center;
-        margin-left: 3%;
-        margin-right: 3%;
-    }
-    #sub_image_p_talk {
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     #community_main_p {
-        font-size: 250%;
+        font-size: 270%;
         color: #FFFFFF;
         text-align: center;
         margin-top: 1em;
@@ -389,7 +396,7 @@
         font-size: 150%;
         color: #FFFFFF;
         text-align: center;
-        line-height: 2.1;
+        line-height: 2.3;
         margin-left: 3%;
         margin-right: 3%;
     }
@@ -405,48 +412,48 @@
         background-color: #020202;
     }
     .form-group {
-        width: 215px;
+        width: 53%;
         height: 50px;
         background-color: #FFF;
         border-radius: 30px 0px 0px 30px;
         margin-left: 2.5em;
         position: relative;
         top: 25em;
-        left: -2em;
+        left: -0.4em;
     }
     .form-inline {
         .btn {
-            background-color: #FF5000;
-            width: 135px;
+            background-color: #FF5050;
+            width: 35%;
             height: 50px;
             border-radius: 0px 30px 30px 0px;
             color: #FFFFF0;
             position: absolute;
-            top: 29em;
-            left: 16em;
+            top: 40.6em;
+            left: 25em;
+            white-space: initial;
+            font-size: 10px;
         }
     }
     .form-inline {
         padding-top: 4em;
         position: relative;
-        top: 8em;
+        top: 4em;
     }
     .relative_first {
         position: relative;
-        top: 32em;
+        top: 40em;
     }
     .relative_first_messenger {
         position: relative;
-        margin-left: 50%;
-    }
-    #relative_6s {
-        top: 35.4em;
+        top: -5.1em;
+        margin-left: 40%;
     }
     .absolute_first {
         position: absolute;
         color: #fff;
-        top: 3.3em;
-        left: 3em;
+        top: 3.1em;
+        left: 7em;
         font-size: 12px;
         text-shadow: 1px 1px 10px #020202;
     }
@@ -466,47 +473,48 @@
         margin-left: 12em;
         display: none;
     }
-    .absolute_third {}
     .line {
         position: relative;
-        top: 40em;
-        right: 21%;
+        top: 37.5em;
+        margin-right: 40%;
         z-index: 10;
     }
     #line {
         height: 3em;
     }
+    .absolute_third {}
     #logo {
         font-size: 650%;
-        color: #FF5000;
+        color: #FF5050;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
-        /*padding-top: 7%;*/
+        /*padding-top: 1em;*/
     }
     #catch_copy {
         font-size: 200%;
         color: #FFF;
-        text-shadow: 1px 1px 10px #020202;
+        //        text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
+        margin-top: 12%;
     }
     #pink_p {
         @include pink;
     }
     .slideshow img {
         position: absolute;
-        left: 21.9%;
-        top: -95.1%;
+        left: 23.9%;
+        top: -129.7%;
         opacity: 0;
         transition: 1s;
-        width: 60%;
-        height: 28.5em;
+        width: auto;
+        height: 26em;
     }
     .slideshow .show {
         opacity: 1;
     }
     .slideshow_2 img {
         position: absolute;
-        left: 13.6%;
+        left: 14%;
         top: 13.7%;
         opacity: 0;
         transition: 1s;
@@ -526,9 +534,25 @@
     }
     #release {
         color: #FFFFF0;
-        font-size: 100%;
+        /* padding-top: 5%; */
+        font-size: 17px;
         position: relative;
-        top: 39em;
+        top: 30em;
+    }
+    #relative_6s {
+        top: 33em;
+        z-index: 10;
+    }
+    .relative_next {
+        margin-top: -8.5%;
+    }
+    #relative_second_6s {
+        -4.5em;
+        position: relative;
+    }
+    #sub_image_p_talk {
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .page-top {
         margin: 0;
@@ -539,11 +563,11 @@
         padding: 0;
         right: 16px;
         bottom: 16px;
-        margin-left: 84%;
+        margin-left: 86%;
     }
     .move-page-top {
         display: block;
-        background: #FF5000;
+        background: #FF5050;
         width: 50px;
         height: 50px;
         color: #fff;
@@ -564,23 +588,35 @@
         text-align: center;
         margin-left: 3%;
         margin-right: 3%;
-        margin-top: 8%;
+        margin-top: 11%;
     }
     .line2 {
-        margin-top: 8%;
-        text-align: center;
+        margin-top: 7%;
+        margin-left: 12%;
+        //        text-align: center;
     }
-    .br_5:before {
+    .br_6:before {
         content: "\A";
         white-space: pre;
     }
     #sns_p {
         font-size: 120%;
         color: #fff;
-        text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
         position: relative;
         top: 0.7em;
+        margin-top: 14%;
+    }
+    #logo2 {
+        width: 88%;
+        margin-top: 3%;
+    }
+    #fotter_logo {
+        width: 90%;
+        margin-top: 17%;
+        /* text-align: center; */
+        margin-left: 5%;
+        margin-bottom: 9%;
     }
 }

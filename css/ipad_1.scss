@@ -45,7 +45,7 @@
         padding: 0.3em 0;
         text-align: center;
         float: left;
-        color: #FF5000;
+        color: #FFF;
         font-size: 23px;
         font-family: 'Fredoka One', cursive;
     }
@@ -101,7 +101,7 @@
     /* line 67, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 76, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     .eyecatch {
-        background-image: url(../image/eyecatch_8.png);
+        background-image: url(../image/top_background.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -139,7 +139,7 @@
         padding: 50px 0px 20px 0px;
         text-align: center;
         font-size: 300%;
-        color: #FF5000;
+        color: #FF5050;
     }
     /* line 100, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 114, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -147,13 +147,13 @@
         padding: 19px 0px 20px 0px;
         text-align: center;
         font-size: 300%;
-        color: #FF5000;
+        color: #FF5050;
     }
     #sub_image_titie_recommend {
         padding: 50px 0px 27px 0px;
         text-align: center;
         font-size: 250%;
-        color: #FF5000;
+        color: #FF5050;
     }
     /* line 110, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 121, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -205,7 +205,7 @@
     /* line 141, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 162, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     .community_back {
-        background-image: url(../image/recommend_back.jpeg);
+        background-image: url(../image/recommend_background.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -246,7 +246,7 @@
     #fotter_title {
         text-align: center;
         font-size: 800%;
-        color: #FF5000;
+        color: #FF5050;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
     }
@@ -257,6 +257,7 @@
         color: #FFF;
         padding-top: 2%;
         margin-left: 43%;
+        text-decoration: none;
     }
     /* line 182, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 210, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -349,7 +350,7 @@
     /* line 250, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 290, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #character {
-        background-image: url(../image/smartphone_white_3.png);
+        background-image: url(../image/smartphone_white_4.png);
         background-repeat: no-repeat;
         background-size: inherit;
         height: 650px;
@@ -393,8 +394,16 @@
     #iOS_download {
         width: 18%;
         height: 100%;
-        opacity: 0.5;
+//        opacity: 0.5;
         padding-top: 5%;
+     
+    }
+    #iOS_download2 {
+        width: 18%;
+        height: 100%;
+        //        opacity: 0.5;
+        padding-top: 5%;
+     
     }
     /* line 283, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 332, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -438,21 +447,21 @@
         text-align: center;
         font-size: 300%;
         padding: 2% 2%;
-        color: #FF5000;
+        color: #FF5050;
     }
     /* line 311, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 366, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #concept_main_p {
         font-size: 295%;
-        color: #FF5000;
+        color: #FF5050;
     }
     /* line 315, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 371, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #character_main_p {
         font-size: 350%;
-        color: #FF5000;
+        color: #FF5050;
         font-weight: 900;
-        font-family: impact;
+//        font-family: impact;
         padding-top: 11%;
         text-align: center;
     }
@@ -517,7 +526,7 @@
     /* line 360, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 425, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     .form-inline .btn {
-        background-color: #FF5000;
+        background-color: #FF5050;
         width: 28%;
         height: 52px;
         border-radius: 0px 30px 30px 0px;
@@ -583,7 +592,7 @@
     /* line 465, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #logo {
         font-size: 800%;
-        color: #FF5000;
+        color: #FF5050;
         font-family: 'Fredoka One', cursive;
         text-shadow: 1px 1px 10px #020202;
         /*padding-top: 10%;*/
@@ -593,14 +602,14 @@
     #catch_copy {
         font-size: 300%;
         color: #FFF;
-        text-shadow: 1px 1px 10px #020202;
+//        text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
     }
     /* line 409, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 481, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
     #pink_p {
-        color: #FF5000;
+        color: #FF5050;
     }
     /* line 412, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_2.scss */
     /* line 485, /Users/kikuchi/Desktop/APOLO_LP_1204/css/index_3.scss */
@@ -659,13 +668,13 @@
     }
     .line2 {
         margin-top: 8%;
-        text-align: center;
+//        text-align: center;
     }
     #sns_p {
         padding-top: 10%;
         font-size: 140%;
         color: #fff;
-        text-shadow: 1px 1px 10px #020202;
+//        text-shadow: 1px 1px 10px #020202;
         font-weight: bold;
         white-space: nowrap;
     }

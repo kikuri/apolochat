@@ -30,7 +30,7 @@
   .title {
     text-align: center;
     float: left;
-    color: #FF5000;
+    color: #FFF;
     font-size: 23px;
     font-family: 'Fredoka One', cursive; }
   /* line 41, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
@@ -71,11 +71,11 @@
     color: white; }
   /* line 77, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .eyecatch {
-    background-image: url(../image/eyecatch_8.png);
+    background-image: url(../image/top_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1020px; }
+    height: 900px; }
   /* line 84, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .sub_title {
     margin: 10px 0px 20px 0px;
@@ -108,44 +108,47 @@
     padding: 15px 0px 10px 0px;
     text-align: center;
     font-size: 200%;
-    color: #FF5000; }
-  /* line 117, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+    color: #FF5050;
+    font-family: Fredoka One; }
+  /* line 118, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #sub_image_titie_talk {
     padding: 10px 0px 10px 0px;
     text-align: center;
     font-size: 200%;
-    color: #FF5000; }
-  /* line 123, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+    color: #FF5050;
+    font-family: Fredoka One; }
+  /* line 125, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #sub_image_titie_recommend {
     padding: 15px 0px 10px 0px;
     text-align: center;
     font-size: 160%;
-    color: #FF5000; }
-  /* line 133, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+    color: #FF5050;
+    font-family: Fredoka One; }
+  /* line 136, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #Apple_Music {
     height: 100px;
     border-radius: 0%;
     padding-left: 14em;
     margin-top: 5em; }
-  /* line 138, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 141, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #Spotify {
     height: 100px;
     border-radius: 0%;
     padding-left: 3em;
     margin-top: 1em; }
-  /* line 143, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 146, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #SoundCloud {
     height: 100px;
     border-radius: 0%;
     padding-left: 14em;
     margin-top: 1em; }
-  /* line 148, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 151, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #Youtube {
     height: 100px;
     border-radius: 0%;
     padding-left: 3em;
     margin-top: 1em; }
-  /* line 153, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 156, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #smartphone_white {
     background-size: contain;
     width: 76%;
@@ -153,68 +156,69 @@
     top: -43em;
     height: 38em;
     left: 13.2%; }
-  /* line 161, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 164, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .Listening_side {
     background-image: url(../image/headphone_lp.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 510px; }
-  /* line 167, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 170, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .community_back {
-    background-image: url(../image/recommend_back.jpeg);
+    background-image: url(../image/recommend_background.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 760px;
     margin-top: 7em; }
-  /* line 175, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 178, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #share_twi {
     height: 125px;
     text-align: center;
     padding-left: 9em; }
-  /* line 180, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 183, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #share_hatena {
     height: 85px;
     text-align: center;
     padding-left: 9.7em;
     margin-top: 1em; }
-  /* line 186, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 189, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #share_face {
     height: 125px;
     text-align: center;
     padding-left: 9em; }
-  /* line 191, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 194, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   footer {
     background-color: #020202;
     width: 100%;
     height: 300px; }
-  /* line 196, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 199, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #fotter_title {
     text-align: center;
     font-size: 650%;
-    color: #FF5000;
+    color: #FF5050;
     font-family: 'Fredoka One', cursive;
     text-shadow: 1px 1px 10px #020202; }
-  /* line 203, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 206, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #fotter_sub_title {
     text-align: center;
     color: #FFF;
     margin-top: 2em;
-    margin-left: 38%; }
-  /* line 209, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+    margin-left: 38%;
+    text-decoration: none; }
+  /* line 213, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #fotter_copyright {
     text-align: center;
     color: #FFF;
     margin-top: 4em; } }
 
 @media screen and (min-width: 321px) and (max-width: 380px) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 218, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 222, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   input[type="date"].form-control,
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
     line-height: 36px; }
-  /* line 228, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 232, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   input[type="date"].input-sm,
   .input-group-sm input[type="date"],
   input[type="time"].input-sm,
@@ -224,7 +228,7 @@
   input[type="month"].input-sm,
   .input-group-sm input[type="month"] {
     line-height: 24px; }
-  /* line 238, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 242, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   input[type="date"].input-lg,
   .input-group-lg input[type="date"],
   input[type="time"].input-lg,
@@ -236,10 +240,10 @@
     line-height: 44px; } }
 
 @media (min-width: 321px) and (max-width: 380px) {
-  /* line 242, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 246, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .input-group {
     padding-top: 5em; }
-  /* line 245, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 249, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .material-icons {
     font-family: 'Material Icons';
     font-weight: normal;
@@ -254,7 +258,7 @@
     direction: ltr;
     -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased; }
-  /* line 261, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 265, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .form-control,
   .form-group .form-control {
     border: 0;
@@ -268,45 +272,50 @@
     box-shadow: none;
     border-radius: 0;
     font-weight: 400; }
-  /* line 274, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 278, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #character {
-    background-image: url(../image/smartphone_white_3.png);
+    background-image: url(../image/smartphone_white_4.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 470px;
     margin-left: 5em; }
-  /* line 281, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 285, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #black_iphone {
     width: 98%;
     display: none; }
-  /* line 285, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 289, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #hatena_p {
     text-align: center;
     padding-top: 5%; }
-  /* line 289, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 293, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #twitter_p {
     text-align: center;
     margin-top: -1em; }
-  /* line 293, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 297, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #facebook_p {
     text-align: center;
     margin-top: -1em; }
-  /* line 297, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 301, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #share_section {
     height: 600px; }
-  /* line 300, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 304, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #iOS_download {
     width: 49%;
     height: 4.5em;
-    opacity: 0.5;
     padding-top: 2em; }
-  /* line 306, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 311, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  #iOS_download2 {
+    width: 32%;
+    height: 2.5em;
+    /* padding-top: 2em; */
+    margin-left: 53%; }
+  /* line 318, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   hr {
     height: 10px;
     border: 0;
     box-shadow: 0 10px 10px -10px #8c8b8b inset;
     display: none; }
-  /* line 312, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 324, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #concept_sub_p {
     margin-top: 1em;
     font-size: 130%;
@@ -314,7 +323,7 @@
     text-shadow: 1px 1px 10px #020202;
     color: #FFF;
     font-weight: 900; }
-  /* line 320, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 332, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #character_sub_p {
     margin-top: 2em;
     font-size: 150%;
@@ -322,7 +331,7 @@
     line-height: 2.1;
     margin-left: 3%;
     margin-right: 3%; }
-  /* line 328, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 340, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #listening_sub_p {
     margin-top: 2em;
     font-size: 150%;
@@ -330,59 +339,58 @@
     line-height: 2.1;
     margin-left: 3%;
     margin-right: 3%; }
-  /* line 336, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 348, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #warning_p {
     margin-top: 3em;
     font-size: 50%;
     text-align: center; }
-  /* line 341, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 353, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #Concept {
     display: none; }
-  /* line 344, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 356, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #concept_main_title {
     text-align: center;
     font-size: 150%;
     padding: 20px 20px;
-    color: #FF5000; }
-  /* line 350, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+    color: #FF5050; }
+  /* line 362, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #concept_main_p {
     font-size: 200%;
-    color: #FF5000;
+    color: #FF5050;
     color: #FFF;
     text-shadow: 1px 1px 10px #020202;
     font-weight: 900; }
-  /* line 357, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 369, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #concept_li {
     display: none; }
-  /* line 360, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 372, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #character_main_p {
     font-size: 250%;
-    color: #FF5000;
+    color: #FF5050;
     font-weight: 900;
-    font-family: impact;
     padding-top: 1em;
     text-align: center; }
-  /* line 368, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 380, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #listening_main_p {
     font-size: 250%;
     padding-top: 100px;
     text-align: center; }
-  /* line 373, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 385, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #sub_image_p {
     text-align: center;
     margin-left: 3%;
     margin-right: 3%; }
-  /* line 378, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 390, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #sub_image_p_talk {
     margin-left: 3%;
     margin-right: 3%; }
-  /* line 382, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 394, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #community_main_p {
     font-size: 250%;
     color: #FFFFFF;
     text-align: center;
     margin-top: 1em; }
-  /* line 388, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 400, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #community_sub_p {
     font-size: 150%;
     color: #FFFFFF;
@@ -390,18 +398,18 @@
     line-height: 2.1;
     margin-left: 3%;
     margin-right: 3%; }
-  /* line 396, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 408, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #white_text_form {
     width: 225px;
     height: 34px;
     background-color: #FFF;
     border-radius: 30px 0px 0px 30px; }
-  /* line 402, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 414, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #black_submit {
     width: 200px;
     height: 200px;
     background-color: #020202; }
-  /* line 407, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 419, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .form-group {
     width: 215px;
     height: 50px;
@@ -411,9 +419,9 @@
     position: relative;
     top: 25em;
     left: -2em; }
-  /* line 418, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 430, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .form-inline .btn {
-    background-color: #FF5000;
+    background-color: #FF5050;
     width: 135px;
     height: 50px;
     border-radius: 0px 30px 30px 0px;
@@ -421,23 +429,27 @@
     position: absolute;
     top: 29em;
     left: 16em; }
-  /* line 429, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 441, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .form-inline {
     padding-top: 4em;
     position: relative;
     top: 8em; }
-  /* line 434, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 446, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .relative_first {
     position: relative;
     top: 32em; }
-  /* line 438, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 450, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .relative_first_messenger {
     position: relative;
     margin-left: 39%; }
-  /* line 442, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 454, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #relative_6s {
-    top: 35.5em; }
-  /* line 445, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+    top: 35.5em;
+    z-index: 10; }
+  /* line 458, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  .relative_next {
+    margin-top: -10%; }
+  /* line 461, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .absolute_first {
     position: absolute;
     color: #fff;
@@ -445,11 +457,11 @@
     left: 6em;
     font-size: 12px;
     text-shadow: 1px 1px 10px #020202; }
-  /* line 453, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 469, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .relative_second {
     position: relative;
     z-index: -1; }
-  /* line 457, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 473, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .absolute_second {
     position: absolute;
     color: #fff;
@@ -461,32 +473,36 @@
     margin-top: -23.3em;
     margin-left: 12em;
     display: none; }
-  /* line 470, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 486, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .line {
     position: relative;
     top: 40em;
     margin-right: 40%;
     z-index: 10; }
-  /* line 476, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 492, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #line {
     height: 3em; }
-  /* line 479, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 495, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #logo {
     font-size: 650%;
-    color: #FF5000;
+    color: #FF5050;
     font-family: 'Fredoka One', cursive;
     text-shadow: 1px 1px 10px #020202;
     /*padding-top: 7%;*/ }
-  /* line 486, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 502, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  #logo2 {
+    width: 88%;
+    margin-top: 20%; }
+  /* line 506, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #catch_copy {
     font-size: 200%;
     color: #FFF;
-    text-shadow: 1px 1px 10px #020202;
-    font-weight: bold; }
-  /* line 492, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+    font-weight: bold;
+    margin-top: 10%; }
+  /* line 513, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #pink_p {
-    color: #FF5000; }
-  /* line 495, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+    color: #FF5050; }
+  /* line 516, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .slideshow img {
     position: absolute;
     left: 21.9%;
@@ -495,10 +511,10 @@
     transition: 1s;
     width: auto;
     height: 28.5em; }
-  /* line 504, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 525, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .slideshow .show {
     opacity: 1; }
-  /* line 507, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 528, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .slideshow_2 img {
     position: absolute;
     left: 13.6%;
@@ -506,39 +522,39 @@
     opacity: 0;
     transition: 1s;
     height: 60.8%; }
-  /* line 515, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 536, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .slideshow_2 .show {
     opacity: 1; }
-  /* line 518, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 539, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #relative_black {
     position: relative;
     top: 0em; }
-  /* line 522, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 543, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #share_title {
     margin: 0px;
     padding-bottom: 10px;
     margin-top: 8%; }
-  /* line 527, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 548, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #release {
     color: #FFFFF0;
     font-size: 100%;
     position: relative;
     top: 39em; }
-  /* line 533, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 554, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .page-top {
     margin: 0;
     padding: 0; }
-  /* line 537, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 558, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .page-top p {
     margin: 0;
     padding: 0;
     right: 16px;
     bottom: 16px;
     margin-left: 86%; }
-  /* line 544, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 565, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .move-page-top {
     display: block;
-    background: #FF5000;
+    background: #FF5050;
     width: 50px;
     height: 50px;
     color: #fff;
@@ -548,10 +564,10 @@
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
-  /* line 557, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 578, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .move-page-top:hover {
     opacity: 0.85; }
-  /* line 560, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 581, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #release2 {
     color: #FFFFF0;
     font-size: 150%;
@@ -560,22 +576,33 @@
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 8%; }
-  /* line 569, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 590, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .line2 {
     margin-top: 8%;
-    text-align: center; }
-  /* line 573, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+    margin-left: 14%; }
+  /* line 595, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   .br_5s:before {
     content: "\A";
     white-space: pre; }
-  /* line 577, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  /* line 599, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
   #sns_p {
     font-size: 120%;
     color: #fff;
-    text-shadow: 1px 1px 10px #020202;
     font-weight: bold;
     white-space: nowrap;
     position: relative;
-    top: 0.7em; } }
+    top: 3.7em;
+    margin-top: 3%; }
+  /* line 608, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  #logo_title {
+    width: 56%;
+    margin-top: -16%; }
+  /* line 612, /Users/kikuchi/Desktop/apolochat/css/smart.scss */
+  #fotter_logo {
+    width: 90%;
+    margin-top: 10%;
+    /* text-align: center; */
+    margin-left: 5%;
+    margin-bottom: 9%; } }
 
 /*# sourceMappingURL=smart.css.map */
